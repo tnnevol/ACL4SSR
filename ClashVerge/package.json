@@ -1,0 +1,16 @@
+{
+  "name": "clash-verge",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./createConfig.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "fs-extra": "^11.2.0"
+  },
+  "packageManager": "pnpm@8.15.6+"
+}
