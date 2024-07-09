@@ -40,5 +40,4 @@ jobs:
           git add .
           CURRENT_TIME=$(TZ=UTC date '+%Y-%m-%d %H:%M:%S UTC')
           git commit -m "Automatically built and pushed by GitHub Action at $CURRENT_TIME"
-          git pull origin master
           git push origin master
