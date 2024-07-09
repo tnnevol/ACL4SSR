@@ -5,18 +5,37 @@ on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-18.04
-
     steps:
       - name: Checkout
-        uses: master
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          branch: master
 
-      - name: Use Node.js 16
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: "16.x"
 
-      - name: Build Project
+      - name: Install Dependencies
+        working-directory: ClashVerge
         run: |
-          cd ./ClashVerge
+          corepack enable
+          corepack prepare pnpm@8.15.6 --activate
           pnpm install
-          pnpm run build
+
+      - name: Build Project
+        working-directory: ClashVerge
+        run: pnpm run build
+
+      - name: Commit and Push Changes
+        working-directory: ClashVerge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "tnnevol"
+          git config user.email "greecenew@foxmail.com"
+          git add .
+          CURRENT_TIME=$(TZ=UTC date '+%Y-%m-%d %H:%M:%S UTC')
+          git commit -m "Automatically built and pushed by GitHub Action at $CURRENT_TIME"
+          git push origin master
