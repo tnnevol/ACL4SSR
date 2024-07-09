@@ -1,6 +1,8 @@
 name: Create Clash Verge Script
 
-on: [push]
+on:
+  schedule:
+    - cron: "0 1 * * 0"
 
 jobs:
   build-and-deploy:
