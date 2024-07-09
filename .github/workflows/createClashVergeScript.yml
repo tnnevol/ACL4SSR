@@ -23,7 +23,7 @@ jobs:
         working-directory: ClashVerge
         run: |
           corepack enable
-          corepack prepare pnpm@8.x --activate
+          corepack prepare pnpm@8 --activate
           pnpm install
 
       - name: Build Project
