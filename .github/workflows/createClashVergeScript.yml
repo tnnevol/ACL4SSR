@@ -1,0 +1,22 @@
+name: Create Clash Verge Script
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: master
+
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: Build Project
+        run: |
+          cd ./ClashVerge
+          pnpm install
+          pnpm run build
