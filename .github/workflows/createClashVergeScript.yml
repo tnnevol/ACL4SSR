@@ -38,6 +38,10 @@ jobs:
           git config --local user.name "tnnevol"
           git config --local user.email "greecenew@foxmail.com"
           git add ./ACL4SSR_Online_Full.js
-          CURRENT_TIME=$(TZ=UTC date '+%Y-%m-%d %H:%M:%S UTC')
-          git commit -m "Automatically built and pushed by GitHub Action at $CURRENT_TIME"
-          git push origin master
+          git pull origin master
+          # Check if there are any changes to commit
+          if [ -n "$(git status --porcelain)" ]; then
+            CURRENT_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S CST')
+            git commit -m "Automatically built and pushed by GitHub Action at $CURRENT_TIME"
+            git push origin master
+          fi
