@@ -37,7 +37,7 @@ jobs:
         run: |
           git config --local user.name "tnnevol"
           git config --local user.email "greecenew@foxmail.com"
-          git add ./ACL4SSR_Online_Full.js
+          git add ./dist
           git pull origin master
           # Check if there are any changes to commit
           if [ -n "$(git status --porcelain)" ]; then
