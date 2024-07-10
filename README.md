@@ -1,9 +1,30 @@
-# SSR去广告规则/GFWList规则/Clash规则碎片
+# SSR去广告规则/GFWList规则/Clash规则碎片/ClashVerge Script
 
+* 这个项目是本人 fork 于 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) 项目，主要是提供本人的定制化分流规则，用于 clash 规则和 clash verge script 规则。
 * 项目基于CC-BY-SA-4.0协议发布  [![CC-BY-SA-4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * 仅推荐未root的安卓手机使用。
 * Telegram频道订阅地址：**[https://t.me/ACL4SSR](https://t.me/ACL4SSR)**
 * [关于中国的互联网](https://github.com/ACL4SSR/ACL4SSR/wiki/关于中国的互联网)
+
+# 在 clash verge script 中使用
+
+ 项目 ClashVerge 目录下下有 clash verge script 脚本（ClashVerge/dist/ACL4SSR_Online_Full.js），该脚本规则使用的是 ACL4SSR_Online_Full并加入了一些定制的规则内容。
+
+ ## 使用
+  
+  复制 [ACL4SSR_Online_Full.js](https://github.com/tnnevol/ACL4SSR/blob/master/ClashVerge/dist/ACL4SSR_Online_Full.js) 中的内容，粘贴到 Clash verge 的全局扩展脚本中。
+
+  ![Alt text](./ClashVerge/assets/image.png)
+  ![Alt text](./ClashVerge/assets/image2.png)
+  ![Alt text](./ClashVerge/assets/image3.png)
+
+  ## 增加规则
+
+  增加 ipv6规则
+  ![Alt text](./ClashVerge/assets/image4.png)
+
+  增加 ipv6 组
+  ![Alt text](./ClashVerge/assets/image5.png)
   
 # 安卓 SSR 去广告ACL规则
   * 屏蔽小米手机和魅族flyme rom系统广告
@@ -20,15 +41,15 @@
 
 ## SSR直接可用的规则
 
-文件               | 默认  | 去广告  | 局域网 |   国内IP段  |   国内域名    |     国外
-----              | ----  |  ----  | ----  |   ----     |     ----     |    ----
-[banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/banAD.acl)         |  代理  |   是   |  直连  |    有-直连  | 常用域名-直连  |  代理-常用国外域名增强
-[onlybanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/onlybanAD.acl)     |  代理  |   是   |  直连  |    无      |    无         |  代理-常用国外域名增强
-[nobanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/nobanAD.acl)       |  代理  |   否   |  直连  |    有-直连  |  常用域名-直连 |  全局代理
-[backcn-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/backcn-banAD.acl)  |  代理  |   是   |  直连  |    有-代理  |    无         | 直连-gfwlist列表 
-[gfwlist-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-banAD.acl) |  直连  |   是   |  直连  |    无      |    无         |  代理-gfwlist列表
-[fullgfwlist.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/fullgfwlist.acl )   |  直连  |   否   |  直连  |    无      |    无         |  代理-gfwlist列表
-[gfwlist-user.rule](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-user.rule) |  直连  |   是   |  直连  |    无      |     无        |  代理-gfwlist列表
+| 文件                                                                                                | 默认 | 去广告 | 局域网 | 国内IP段 | 国内域名      | 国外                  |
+| --------------------------------------------------------------------------------------------------- | ---- | ------ | ------ | -------- | ------------- | --------------------- |
+| [banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/banAD.acl)                 | 代理 | 是     | 直连   | 有-直连  | 常用域名-直连 | 代理-常用国外域名增强 |
+| [onlybanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/onlybanAD.acl)         | 代理 | 是     | 直连   | 无       | 无            | 代理-常用国外域名增强 |
+| [nobanAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/nobanAD.acl)             | 代理 | 否     | 直连   | 有-直连  | 常用域名-直连 | 全局代理              |
+| [backcn-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/backcn-banAD.acl)   | 代理 | 是     | 直连   | 有-代理  | 无            | 直连-gfwlist列表      |
+| [gfwlist-banAD.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-banAD.acl) | 直连 | 是     | 直连   | 无       | 无            | 代理-gfwlist列表      |
+| [fullgfwlist.acl](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/fullgfwlist.acl )    | 直连 | 否     | 直连   | 无       | 无            | 代理-gfwlist列表      |
+| [gfwlist-user.rule](https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Acl/gfwlist-user.rule) | 直连 | 是     | 直连   | 无       | 无            | 代理-gfwlist列表      |
 
 
 
@@ -72,26 +93,26 @@
 
 示例：项目里/Clash/config/目录下存放的是 [subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#外部配置)的 配置示例
 
-| 文件                   | 类型                 | 解释                                                         |
-| ---------------------- | -------------------- | ------------------------------------------------------------ |
-| BanAD.list             | 规则碎片-去广告      | 只包含常见广告关键字、广告联盟。无副作用，放心使用           |
+| 文件                   | 类型                 | 解释                                                                                                     |
+| ---------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
+| BanAD.list             | 规则碎片-去广告      | 只包含常见广告关键字、广告联盟。无副作用，放心使用                                                       |
 | BanProgramAD.list      | 规则碎片-去广告      | 包含常用应用的各种去广告规则。可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则） |
-| BanEasyListChina.list  | 规则碎片-去广告      | AdblockPlus中的中国所有的屏蔽域名                            |
-| LocalAreaNetwork.list  | 规则碎片-直连        | 本地地址和路由器直连域名啥的                                 |
-| ChinaDomain.list       | 规则碎片-直连        | 国内常见域名、直连CDN等。（很全，常用网址都有）              |
-| ChinaCompanyIp.list    | 规则碎片-直连        | 国内BAT公司及云服务厂商的IP段。所有在该云服务上的网站都可以直连。比如你网站在阿里云香港都可以直连。 |
-| ChinaIp.list           | 规则碎片-直连        | IPIP的国内地址段。比GeoIp更好。电脑性能好，可以引入          |
-| Download.list          | 规则碎片-直连        | 一些下载用的域名                                             |
-| Apple.list             | 规则碎片             | 苹果公司的所有域名                                           |
-| Microsoft.list         | 规则碎片             | 微软公司的所有域名                                           |
-| OneDrive.list          | 规则碎片             | OneDrive                                                     |
-| GoogleCN.list          | 规则碎片-直连        | 谷歌在中国能直连的网址列表                                   |
-| Telegram.list          | 规则碎片-代理        | Telegram的所有域名                                           |
-| Netflix.list           | 规则碎片-代理        | Netflix的所有域名                                            |
-| ProxyGFWlist.list      | 规则碎片-代理        | GFW的全量列表                                                |
-| ProxyLite.list         | 规则碎片-代理        | 比较精简的代理列表，包含常用的，以及被污染的域名             |
-| GeneralClashConfig.yml | clash配置文件        | 放行一堆国内的常用域名，配合系统代理更牛逼。 配置很全，自带中文注释。可以自行使用 |
-| pref.ini               | subconverter配置文件 | 更改了一些基础配置，将规则变成ACL4SSR                        |
+| BanEasyListChina.list  | 规则碎片-去广告      | AdblockPlus中的中国所有的屏蔽域名                                                                        |
+| LocalAreaNetwork.list  | 规则碎片-直连        | 本地地址和路由器直连域名啥的                                                                             |
+| ChinaDomain.list       | 规则碎片-直连        | 国内常见域名、直连CDN等。（很全，常用网址都有）                                                          |
+| ChinaCompanyIp.list    | 规则碎片-直连        | 国内BAT公司及云服务厂商的IP段。所有在该云服务上的网站都可以直连。比如你网站在阿里云香港都可以直连。      |
+| ChinaIp.list           | 规则碎片-直连        | IPIP的国内地址段。比GeoIp更好。电脑性能好，可以引入                                                      |
+| Download.list          | 规则碎片-直连        | 一些下载用的域名                                                                                         |
+| Apple.list             | 规则碎片             | 苹果公司的所有域名                                                                                       |
+| Microsoft.list         | 规则碎片             | 微软公司的所有域名                                                                                       |
+| OneDrive.list          | 规则碎片             | OneDrive                                                                                                 |
+| GoogleCN.list          | 规则碎片-直连        | 谷歌在中国能直连的网址列表                                                                               |
+| Telegram.list          | 规则碎片-代理        | Telegram的所有域名                                                                                       |
+| Netflix.list           | 规则碎片-代理        | Netflix的所有域名                                                                                        |
+| ProxyGFWlist.list      | 规则碎片-代理        | GFW的全量列表                                                                                            |
+| ProxyLite.list         | 规则碎片-代理        | 比较精简的代理列表，包含常用的，以及被污染的域名                                                         |
+| GeneralClashConfig.yml | clash配置文件        | 放行一堆国内的常用域名，配合系统代理更牛逼。 配置很全，自带中文注释。可以自行使用                        |
+| pref.ini               | subconverter配置文件 | 更改了一些基础配置，将规则变成ACL4SSR                                                                    |
 
 
 
