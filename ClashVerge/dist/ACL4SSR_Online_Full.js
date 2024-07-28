@@ -2708,6 +2708,7 @@
   "DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体",
   "DOMAIN,music.youtube.com,🌍 国外媒体",
   "DOMAIN-SUFFIX,1password.com,🚀 节点选择",
+  "DOMAIN-SUFFIX,notion.site,🚀 节点选择",
   "DOMAIN-SUFFIX,adguard.org,🚀 节点选择",
   "DOMAIN-SUFFIX,bit.no.com,🚀 节点选择",
   "DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择",
