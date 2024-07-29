@@ -197,10 +197,11 @@ async function createConfigScript() {
     };
   
     // 所有区域节点
-    const allAreaProxieNames = [HongKong, Taiwan, US, Japan, Singapore]
-      .filter((point) => {
-        return point.proxies.length > 0;
-      })
+    const allAreaGroup = [HongKong, Taiwan, US, Japan, Singapore]
+    .filter((point) => {
+      return point.proxies.length > 0;
+    })
+    const allAreaProxieNames = allAreaGroup
       .map((point) => point.name);
   
     // 通用的节点组
@@ -324,11 +325,7 @@ async function createConfigScript() {
         type: "select",
         proxies: ["DIRECT", "REJECT"],
       },
-      HongKong,
-      Japan,
-      US,
-      Taiwan,
-      Singapore
+      ...allAreaGroup
     );
     // 插入规则
     config.rules = ${rules};
