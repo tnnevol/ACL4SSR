@@ -1,4 +1,6 @@
 # 内容：Ipv6
-# 数量：2条
+# 数量：3条
+
+DOMAIN-SUFFIX,ipv6.baidu.com
 DOMAIN-SUFFIX,wouqian.com
 DOMAIN-SUFFIX,test-ipv6.com
