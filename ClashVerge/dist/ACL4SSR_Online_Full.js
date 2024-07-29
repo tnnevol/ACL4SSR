@@ -1,53 +1,39 @@
-// 定义 main 函数
-  function main(config) {
-    // 所有地区 🚀 手动切换
+// 所有地区 🚀 手动切换
+  function getAllProxies(proxies) {
     const allRegex = /自动|故障|流量|官网|套餐|机场|订阅/;
-    const allProxies = config.proxies
-      .filter((e) => !allRegex.test(e.name))
-      .map((e) => e.name);
+    return proxies.filter((e) => !allRegex.test(e.name)).map((e) => e.name);
+  }
   
+  function getProxiesByRegex(proxies, regex, concatProxies = []) {
+    return [
+      ...proxies.filter((e) => regex.test(e.name)).map((e) => e.name),
+      ...concatProxies,
+    ];
+  }
+  
+  // 定义 main 函数
+  function main(config) {
+    const allProxies = getAllProxies(config.proxies);
     // 狮城地区
     const SingaporeRegex = /新加坡|sg|SG|Singapore|🇸🇬|Singapore|坡/u;
-    const SingaporeProxies = config.proxies
-      .filter((e) => SingaporeRegex.test(e.name))
-      .map((e) => e.name);
+    const SingaporeProxies = getProxiesByRegex(config.proxies, SingaporeRegex);
   
     // 日本地区
     const JapanRegex = /日本|JP|Japan|🇯🇵|Tokyo|Osaka|霓虹|jp/u;
-    const JapanProxies = config.proxies
-      .filter((e) => JapanRegex.test(e.name))
-      .map((e) => e.name);
+    const JapanProxies = getProxiesByRegex(config.proxies, JapanRegex);
   
     // 美国地区
     const AmericaRegex =
       /美国|US|United States|America|🇺🇸|Los Angeles|San Jose|Phoenix|洛杉矶|🇺🇸|凤凰城|us|UnitedStates/u;
-    const AmericaProxies = config.proxies
-      .filter((e) => AmericaRegex.test(e.name))
-      .map((e) => e.name);
+    const AmericaProxies = getProxiesByRegex(config.proxies, AmericaRegex);
   
     // 台湾地区
     const TaiwanRegex = /台湾|TW|Taiwan|🇹🇼|Taipei|台北/u;
-    const TaiwanProxies = config.proxies
-      .filter((e) => TaiwanRegex.test(e.name))
-      .map((e) => e.name);
+    const TaiwanProxies = getProxiesByRegex(config.proxies, TaiwanRegex);
   
     // 🇭🇰 香港节点
     const HongKongRegex = /香港|HK|Hong Kong|🇭🇰/u;
-    const HongKongProxies = config.proxies
-      .filter((e) => HongKongRegex.test(e.name))
-      .map((e) => e.name);
-  
-    // 🎶 网易音乐
-    const NetEaseRegex = /网易|音乐|解锁|Music|NetEase/u;
-    const NetEaseProxies = config.proxies
-      .filter((e) => NetEaseRegex.test(e.name))
-      .map((e) => e.name);
-  
-    // 🎥 奈飞节点
-    const NetflixRegex = /NF|奈飞|解锁|Netflix|NETFLIX|Media/u;
-    const NetflixProxies = config.proxies
-      .filter((e) => NetflixRegex.test(e.name))
-      .map((e) => e.name);
+    const HongKongProxies = getProxiesByRegex(config.proxies, HongKongRegex);
   
     // 🇺🇲 美国节点
     const US = {
@@ -109,35 +95,47 @@
       proxies: SingaporeProxies,
     };
   
+    // 所有区域节点
+    const allAreaProxieNames = [HongKong, Taiwan, US, Japan, Singapore]
+      .filter((point) => {
+        return point.proxies.length > 0;
+      })
+      .map((point) => point.name);
+  
+    // 通用的节点组
+    const commonProxies = [
+      "♻️ 自动选择",
+      "🚀 手动切换",
+      ...allAreaProxieNames,
+      "DIRECT",
+    ];
+  
+    // 🎶 网易音乐
+    const NetEaseRegex = /网易|音乐|解锁|Music|NetEase/u;
+    const NetEaseProxies = getProxiesByRegex(config.proxies, NetEaseRegex, [
+      "DIRECT",
+      "🚀 节点选择",
+      "♻️ 自动选择",
+    ]);
+  
+    // 🎥 奈飞节点
+    const NetflixRegex = /NF|奈飞|解锁|Netflix|NETFLIX|Media/u;
+    const NetflixProxies = getProxiesByRegex(config.proxies, NetflixRegex, [
+      "REJECT",
+      "DIRECT",
+    ]);
+  
     // 🚀 节点选择
     const NodeSelect = {
       name: "🚀 节点选择",
       type: "select",
-      proxies: [
-        "♻️ 自动选择",
-        "🇭🇰 香港节点",
-        "🇨🇳 台湾节点",
-        "🇺🇲 美国节点",
-        "🇸🇬 狮城节点",
-        "🇯🇵 日本节点",
-        "🚀 手动切换",
-        "DIRECT",
-      ],
+      proxies: commonProxies,
     };
     // 🔗 Ipv6
     const Ipv6 = {
       name: "🔗 Ipv6",
       type: "select",
-      proxies: [
-        "♻️ 自动选择",
-        "🇭🇰 香港节点",
-        "🇨🇳 台湾节点",
-        "🇺🇲 美国节点",
-        "🇸🇬 狮城节点",
-        "🇯🇵 日本节点",
-        "🚀 手动切换",
-        "DIRECT",
-      ],
+      proxies: commonProxies,
     };
   
     // 🚀 手动切换
@@ -160,8 +158,6 @@
     };
   
     const groups = (config["proxy-groups"] = []);
-    // 规则
-    const rules = [];
   
     // 插入分组
     groups.unshift(
@@ -185,46 +181,32 @@
       ].map((name) => ({
         name,
         type: "select",
-        proxies: [
-          "🇭🇰 香港节点",
-          "🇨🇳 台湾节点",
-          "🇺🇲 美国节点",
-          "🇸🇬 狮城节点",
-          "🇯🇵 日本节点",
-          "🚀 手动切换",
-          "DIRECT",
-        ],
+        proxies: [...allAreaProxieNames, "DIRECT"],
       })),
       {
         name: "🎥 奈飞视频",
         type: "select",
-        proxies: [
-          "🎥 奈飞节点",
-          "🚀 节点选择",
-          "♻️ 自动选择",
-          "🇭🇰 香港节点",
-          "🇨🇳 台湾节点",
-          "🇺🇲 美国节点",
-          "🇸🇬 狮城节点",
-          "🇯🇵 日本节点",
-          "🚀 手动切换",
-          "DIRECT",
-        ],
+        proxies: ["🎥 奈飞节点", ...commonProxies],
+      },
+      {
+        name: "🎥 奈飞节点",
+        type: "select",
+        proxies: NetflixProxies,
       },
       {
         name: "📺 巴哈姆特",
         type: "select",
-        proxies: ["🇨🇳 台湾节点", "🚀 节点选择", "🚀 手动切换", "DIRECT"],
+        proxies: commonProxies,
       },
       {
         name: "📺 哔哩哔哩",
         type: "select",
-        proxies: ["🎯 全球直连", "🇨🇳 台湾节点", "🇭🇰 香港节点"],
+        proxies: ["🎯 全球直连", ...allAreaProxieNames],
       },
       {
         name: "🎶 网易音乐",
         type: "select",
-        proxies: ["DIRECT", "🚀 节点选择", "♻️ 自动选择"].concat(NetEaseProxies),
+        proxies: NetEaseProxies,
       },
       {
         name: "🎯 全球直连",
@@ -245,12 +227,7 @@
       Japan,
       US,
       Taiwan,
-      Singapore,
-      {
-        name: "🎥 奈飞节点",
-        type: "select",
-        proxies: NetflixProxies.concat(["REJECT", "DIRECT"]),
-      }
+      Singapore
     );
     // 插入规则
     config.rules = [
