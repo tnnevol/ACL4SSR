@@ -28,7 +28,6 @@ ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=🔗 Ipv6,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/Ruleset/Ipv6.list
-ruleset=🔗 Ipv6,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/ChinaIpV6.list
 ruleset=Ⓜ️ 微软Bing,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/Bing.list
 ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/OneDrive.list
 ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/Clash/Microsoft.list
