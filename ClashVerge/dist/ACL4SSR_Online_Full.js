@@ -1978,6 +1978,7 @@
   "DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连",
   "DOMAIN-SUFFIX,ipv6.baidu.com,🔗 Ipv6",
   "DOMAIN-SUFFIX,wouqian.com,🔗 Ipv6",
+  "DOMAIN-SUFFIX,tnnevol.cn,🔗 Ipv6",
   "DOMAIN-SUFFIX,test-ipv6.com,🔗 Ipv6",
   "IP-CIDR6,2001:250::/35,🔗 Ipv6,no-resolve",
   "IP-CIDR6,2001:250:2000::/35,🔗 Ipv6,no-resolve",
