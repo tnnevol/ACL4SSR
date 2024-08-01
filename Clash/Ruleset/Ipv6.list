@@ -3,11 +3,9 @@
 
 
 # ip
-IP-CIDR6,2409:8a31:5d3:1c00::/60
-IP-CIDR6,2409:8a30:5937:3070::/60
+# 权重后期应当放到最低 - 移动
+IP-CIDR6,2409::/16
 
 ## domain
 DOMAIN-SUFFIX,ipv6.baidu.com
-DOMAIN-SUFFIX,wouqian.com
-DOMAIN-SUFFIX,tnnevol.cn
 DOMAIN-SUFFIX,test-ipv6.com
