@@ -1,6 +1,12 @@
 # 内容：Ipv6
-# 数量：4条
+# 数量：6条
 
+
+# ip
+IP-CIDR6,2409:8a31:5d3:1c00::/60
+IP-CIDR6,2409:8a30:5937:3070::/60
+
+## domain
 DOMAIN-SUFFIX,ipv6.baidu.com
 DOMAIN-SUFFIX,wouqian.com
 DOMAIN-SUFFIX,tnnevol.cn
