@@ -116,24 +116,24 @@ async function createConfigScript() {
   function main(config) {
     const allProxies = getAllProxies(config.proxies);
     // 狮城地区
-    const SingaporeRegex = /新加坡|sg|SG|Singapore|🇸🇬|Singapore|坡/u;
+    const SingaporeRegex = /新加坡|坡|狮城|SG|Singapore/u;
     const SingaporeProxies = getProxiesByRegex(config.proxies, SingaporeRegex);
   
     // 日本地区
-    const JapanRegex = /日本|JP|Japan|🇯🇵|Tokyo|Osaka|霓虹|jp/u;
+    const JapanRegex = /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan/u;
     const JapanProxies = getProxiesByRegex(config.proxies, JapanRegex);
   
     // 美国地区
     const AmericaRegex =
-      /美国|US|United States|America|🇺🇸|Los Angeles|San Jose|Phoenix|洛杉矶|🇺🇸|凤凰城|us|UnitedStates/u;
+      /美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States/u;
     const AmericaProxies = getProxiesByRegex(config.proxies, AmericaRegex);
   
     // 台湾地区
-    const TaiwanRegex = /台湾|TW|Taiwan|🇹🇼|Taipei|台北/u;
+    const TaiwanRegex = /台|新北|彰化|TW|Taiwan/u;
     const TaiwanProxies = getProxiesByRegex(config.proxies, TaiwanRegex);
   
     // 🇭🇰 香港节点
-    const HongKongRegex = /香港|HK|Hong Kong|🇭🇰/u;
+    const HongKongRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|🇭🇰/u;
     const HongKongProxies = getProxiesByRegex(config.proxies, HongKongRegex);
   
     // 🇺🇲 美国节点
