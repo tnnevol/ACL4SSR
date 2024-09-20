@@ -19,7 +19,7 @@
     const SingaporeProxies = getProxiesByRegex(config.proxies, SingaporeRegex);
   
     // 日本地区
-    const JapanRegex = /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan/u;
+    const JapanRegex = /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|Tokyo/u;
     const JapanProxies = getProxiesByRegex(config.proxies, JapanRegex);
   
     // 美国地区
@@ -32,7 +32,7 @@
     const TaiwanProxies = getProxiesByRegex(config.proxies, TaiwanRegex);
   
     // 🇭🇰 香港节点
-    const HongKongRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|🇭🇰/u;
+    const HongKongRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|Hongkong|🇭🇰/u;
     const HongKongProxies = getProxiesByRegex(config.proxies, HongKongRegex);
   
     // 🇺🇲 美国节点
