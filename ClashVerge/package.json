@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node ./createConfig.js"
+    "build": "node ./create_ACL4SSR_Online_Full.js"
   },
   "keywords": [],
   "author": "",
