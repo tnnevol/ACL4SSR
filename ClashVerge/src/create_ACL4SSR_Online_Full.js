@@ -1,37 +1,37 @@
-const fs = require("fs-extra");
-
-const {createRuleProvidersByRuleset, createRuleProvidersMap} = require("./helper");
+const fs = require('fs-extra')
 
 const {
-    ACL4SSR_ONLINE_FULL_RULE_SET_TEMP,
-    SCRIPT_OUT_PATH,
-    RULE_PROVIDER_COMMON,
-    GITHUB_RAW_BASE_URL,
-    REVERSED_RULE_SET_NAME_DICT,
-    DNS_CONFIG,
-    GROUP_BASE_OPTION
-} = require("./config");
+  ACL4SSR_ONLINE_FULL_RULE_SET_TEMP,
+  SCRIPT_OUT_PATH,
+  RULE_PROVIDER_COMMON,
+  GITHUB_RAW_BASE_URL,
+  REVERSED_RULE_SET_NAME_DICT,
+  DNS_CONFIG,
+  GROUP_BASE_OPTION,
+} = require('./config')
+
+const { createRuleProvidersByRuleset, createRuleProvidersMap } = require('./helper')
 
 async function createConfigScript() {
-    const ruleProvidersMap = await createRuleProvidersMap(ACL4SSR_ONLINE_FULL_RULE_SET_TEMP)
-    await createRuleProvidersByRuleset(
-        ruleProvidersMap,
-        "acl4ssr-online-full"
-    );
-    const ruleProviders = {};
-    const rules = [];
+  const ruleProvidersMap = await createRuleProvidersMap(ACL4SSR_ONLINE_FULL_RULE_SET_TEMP)
+  await createRuleProvidersByRuleset(
+    ruleProvidersMap,
+    'acl4ssr-online-full',
+  )
+  const ruleProviders = {}
+  const rules = []
 
-    Object.keys(ruleProvidersMap).forEach((name) =>{
-        ruleProviders[name] = {
-            ...RULE_PROVIDER_COMMON,
-            behavior: "classical",
-            url: `${GITHUB_RAW_BASE_URL}/ClashVerge/dist/clash-rules/acl4ssr-online-full/${name}.txt`,
-            path: `./ruleset/tnnevol/${name}.yaml`,
-        };
-        rules.push(`RULE-SET,${name},${REVERSED_RULE_SET_NAME_DICT[name]}`)
-    })
+  Object.keys(ruleProvidersMap).forEach((name) => {
+    ruleProviders[name] = {
+      ...RULE_PROVIDER_COMMON,
+      behavior: 'classical',
+      url: `${GITHUB_RAW_BASE_URL}/ClashVerge/dist/clash-rules/acl4ssr-online-full/${name}.txt`,
+      path: `./ruleset/tnnevol/${name}.yaml`,
+    }
+    rules.push(`RULE-SET,${name},${REVERSED_RULE_SET_NAME_DICT[name]}`)
+  })
 
-    const scriptTemp = `
+  const scriptTemp = `
 function getProxiesByRegex(proxies, regex, concatProxies = []) {
     return [
         ...proxies.filter((e) => regex.test(e.name)).map((e) => e.name),
@@ -294,10 +294,10 @@ function main(config) {
 }
   `
 
-    // 没有 dist 目录创建 dist 目录
-    fs.ensureDirSync(SCRIPT_OUT_PATH, 0o2775);
+  // 没有 dist 目录创建 dist 目录
+  fs.ensureDirSync(SCRIPT_OUT_PATH, 0o2775)
 
-    fs.writeFileSync(`${SCRIPT_OUT_PATH}/ACL4SSR_Online_Full.js`, scriptTemp);
+  fs.writeFileSync(`${SCRIPT_OUT_PATH}/ACL4SSR_Online_Full.js`, scriptTemp)
 }
 
-createConfigScript();
+createConfigScript()
