@@ -24,7 +24,6 @@ jobs:
         working-directory: ClashVerge
         run: |
           npm install -g pnpm@8
-          pwd
           pnpm install
 
       - name: Build Project
