@@ -28,7 +28,7 @@ jobs:
 
       - name: Build Project
         working-directory: ClashVerge
-        run: pnpm run build
+        run: cd ./ClashVerge && pnpm run build
 
       - name: Commit and Push Changes
         working-directory: ClashVerge
