@@ -23,12 +23,13 @@ jobs:
       - name: Install Dependencies
         working-directory: ClashVerge
         run: |
+          cd ./ClashVerge
           npm install -g pnpm@8
           pnpm install
 
       - name: Build Project
         working-directory: ClashVerge
-        run: cd ./ClashVerge && pnpm run build
+        run: pnpm run build
 
       - name: Commit and Push Changes
         working-directory: ClashVerge
