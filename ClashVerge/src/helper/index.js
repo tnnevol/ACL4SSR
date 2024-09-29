@@ -1,5 +1,6 @@
 const fs = require("fs-extra");
-const $axios = require("./service");
+const path = require("path");
+const $axios = require("../service");
 
 const {
     BLANK_LINE_REG,
@@ -8,7 +9,7 @@ const {
     COMMENT_REG2,
     CLASH_RULE_OUT_PATH,
     RULE_SET_NAME_DICT,
-} = require("./config");
+} = require("../config");
 
 /**
  * 表示规则集列表的一个条目。
@@ -91,7 +92,7 @@ module.exports = {
      * @return {Promise<void>}
      */
     createRuleProvidersByRuleset: async function (ruleProvidersMap, configType) {
-        const OUT_PATH = [CLASH_RULE_OUT_PATH, configType].filter(Boolean).join("/")
+        const OUT_PATH = path.join(CLASH_RULE_OUT_PATH, configType || '');
         fs.ensureDirSync(OUT_PATH, 0o2775);
 
         Object.entries(ruleProvidersMap).forEach(([name, rules]) => {

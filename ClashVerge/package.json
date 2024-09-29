@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "node ./create_ACL4SSR_Online_Full.js"
+    "build": "pnpm run build:ACL4SSR_Online_Full",
+    "build:ACL4SSR_Online_Full": "node ./src/create_ACL4SSR_Online_Full.js"
   },
   "keywords": [],
   "author": "",
