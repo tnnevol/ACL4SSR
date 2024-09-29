@@ -1,12 +1,13 @@
 {
   "name": "clash-verge",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "packageManager": "pnpm@8.15.6+",
   "description": "",
   "author": "",
   "license": "ISC",
   "keywords": [],
   "scripts": {
+    "release": "bumpp package.json",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "build": "pnpm run build:ACL4SSR_Online_Full",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.3",
+    "bumpp": "^9.6.1",
     "eslint": "^9.11.1",
     "eslint-plugin-format": "^0.1.2"
   }
