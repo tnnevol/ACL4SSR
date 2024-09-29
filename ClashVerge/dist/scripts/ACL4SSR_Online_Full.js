@@ -8,115 +8,172 @@ function getProxiesByRegex(proxies, regex, concatProxies = []) {
 
 const ruleProviders = {
   "LocalAreaNetwork": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/LocalAreaNetwork.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/LocalAreaNetwork.txt",
     "path": "./ruleset/tnnevol/LocalAreaNetwork.yaml"
   },
   "BanAD": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/BanAD.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/BanAD.txt",
     "path": "./ruleset/tnnevol/BanAD.yaml"
   },
   "BanProgramAD": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/BanProgramAD.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/BanProgramAD.txt",
     "path": "./ruleset/tnnevol/BanProgramAD.yaml"
   },
   "GoogleFCM": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/GoogleFCM.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/GoogleFCM.txt",
     "path": "./ruleset/tnnevol/GoogleFCM.yaml"
   },
   "Ipv6": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Ipv6.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Ipv6.txt",
     "path": "./ruleset/tnnevol/Ipv6.yaml"
   },
   "Bing": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Bing.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bing.txt",
     "path": "./ruleset/tnnevol/Bing.yaml"
   },
   "OneDrive": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/OneDrive.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/OneDrive.txt",
     "path": "./ruleset/tnnevol/OneDrive.yaml"
   },
   "Microsoft": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Microsoft.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Microsoft.txt",
     "path": "./ruleset/tnnevol/Microsoft.yaml"
   },
   "Apple": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Apple.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Apple.txt",
     "path": "./ruleset/tnnevol/Apple.yaml"
   },
   "Telegram": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Telegram.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Telegram.txt",
     "path": "./ruleset/tnnevol/Telegram.yaml"
   },
   "OpenAi": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/OpenAi.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/OpenAi.txt",
     "path": "./ruleset/tnnevol/OpenAi.yaml"
   },
   "NetEaseMusic": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/NetEaseMusic.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/NetEaseMusic.txt",
     "path": "./ruleset/tnnevol/NetEaseMusic.yaml"
   },
   "Games": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Games.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Games.txt",
     "path": "./ruleset/tnnevol/Games.yaml"
   },
   "YouTube": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/YouTube.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/YouTube.txt",
     "path": "./ruleset/tnnevol/YouTube.yaml"
   },
   "Netflix": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Netflix.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Netflix.txt",
     "path": "./ruleset/tnnevol/Netflix.yaml"
   },
   "Bahamut": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Bahamut.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bahamut.txt",
     "path": "./ruleset/tnnevol/Bahamut.yaml"
   },
   "Bilibili": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/Bilibili.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bilibili.txt",
     "path": "./ruleset/tnnevol/Bilibili.yaml"
   },
   "ChinaMedia": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/ChinaMedia.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ChinaMedia.txt",
     "path": "./ruleset/tnnevol/ChinaMedia.yaml"
   },
   "ProxyMedia": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/ProxyMedia.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ProxyMedia.txt",
     "path": "./ruleset/tnnevol/ProxyMedia.yaml"
   },
   "ProxyGFWlist": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master/ClashVerge/dist/scripts/acl4ssr-online-full/ProxyGFWlist.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ProxyGFWlist.txt",
     "path": "./ruleset/tnnevol/ProxyGFWlist.yaml"
   }
 };
 const rules = [
     ...[
   "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
   "RULE-SET,BanAD,🛑 广告拦截",
   "RULE-SET,BanProgramAD,🍃 应用净化",
   "RULE-SET,GoogleFCM,📢 谷歌FCM",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
   "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,Bing,Ⓜ️ 微软Bing",
   "RULE-SET,OneDrive,Ⓜ️ 微软云盘",
@@ -126,23 +183,13 @@ const rules = [
   "RULE-SET,OpenAi,💬 OpenAi",
   "RULE-SET,NetEaseMusic,🎶 网易音乐",
   "RULE-SET,Games,🎮 游戏平台",
-  "RULE-SET,Games,🎮 游戏平台",
-  "RULE-SET,Games,🎮 游戏平台",
-  "RULE-SET,Games,🎮 游戏平台",
-  "RULE-SET,Games,🎮 游戏平台",
   "RULE-SET,YouTube,📹 油管视频",
   "RULE-SET,Netflix,🎥 奈飞视频",
   "RULE-SET,Bahamut,📺 巴哈姆特",
   "RULE-SET,Bilibili,📺 哔哩哔哩",
-  "RULE-SET,Bilibili,📺 哔哩哔哩",
   "RULE-SET,ChinaMedia,🌏 国内媒体",
   "RULE-SET,ProxyMedia,🌍 国外媒体",
-  "RULE-SET,ProxyGFWlist,🚀 节点选择",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,LocalAreaNetwork,🎯 全球直连"
+  "RULE-SET,ProxyGFWlist,🚀 节点选择"
 ],
     // 其他规则
     "GEOIP,LAN,🎯 全球直连,no-resolve",
@@ -206,16 +253,35 @@ const groupBaseOption = {
     hidden: false,
 };
 
-
-// 定义 main 函数
 function main(config) {
+    // 狮城地区
+    const SingaporeRegex = /新加坡|坡|狮城|SG|Singapore/u;
+    const SingaporeProxies = getProxiesByRegex(config.proxies, SingaporeRegex);
+
+    // 日本地区
+    const JapanRegex = /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|Tokyo/u;
+    const JapanProxies = getProxiesByRegex(config.proxies, JapanRegex);
+
+    // 美国地区
+    const AmericaRegex =
+        /美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States/u;
+    const AmericaProxies = getProxiesByRegex(config.proxies, AmericaRegex);
+
+    // 台湾地区
+    const TaiwanRegex = /台|新北|彰化|TW|Taiwan/u;
+    const TaiwanProxies = getProxiesByRegex(config.proxies, TaiwanRegex);
+
+    // 🇭🇰 香港节点
+    const HongKongRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|Hongkong|🇭🇰/u;
+    const HongKongProxies = getProxiesByRegex(config.proxies, HongKongRegex);
+
     // 🇺🇲 美国节点
     const US = {
         ...groupBaseOption,
         name: "🇺🇲 美国节点",
         type: "url-test",
         tolerance: 30,
-        filter: /美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States/u,
+        proxies: AmericaProxies,
     };
 
     // 🇭🇰 香港节点
@@ -224,7 +290,7 @@ function main(config) {
         name: "🇭🇰 香港节点",
         type: "url-test",
         tolerance: 30,
-        filter: /港|HK|hk|Hong Kong|HongKong|hongkong|Hongkong|🇭🇰/u
+        proxies: HongKongProxies,
     };
 
     // 🇨🇳 台湾节点
@@ -233,7 +299,7 @@ function main(config) {
         name: "🇨🇳 台湾节点",
         type: "url-test",
         tolerance: 30,
-        filter: /台|新北|彰化|TW|Taiwan/u
+        proxies: TaiwanProxies,
     };
 
     // 🇯🇵 日本节点
@@ -242,7 +308,7 @@ function main(config) {
         name: "🇯🇵 日本节点",
         type: "url-test",
         tolerance: 30,
-        filter: /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|Tokyo/u
+        proxies: JapanProxies,
     };
 
     // 🇸🇬 狮城节点
@@ -251,7 +317,7 @@ function main(config) {
         name: "🇸🇬 狮城节点",
         type: "url-test",
         tolerance: 30,
-        filter: /新加坡|坡|狮城|SG|Singapore/u
+        proxies: SingaporeProxies,
     };
 
     // 所有区域节点
@@ -259,7 +325,7 @@ function main(config) {
         .filter((point) => {
             return point.proxies.length > 0;
         })
-    const allAreaProxieNames = allAreaGroup
+    const allAreaProxiesNames = allAreaGroup
         .map((point) => point.name);
 
     // 通用的节点组
@@ -269,14 +335,14 @@ function main(config) {
         "故障转移",
         "负载均衡(散列)",
         "负载均衡(轮询)",
-        ...allAreaProxieNames,
-        "🎯 全球直连",
+        ...allAreaProxiesNames,
+        "DIRECT",
     ];
 
     // 🎶 网易音乐
     const NetEaseRegex = /网易|音乐|解锁|Music|NetEase/u;
     const NetEaseProxies = getProxiesByRegex(config.proxies, NetEaseRegex, [
-        "🎯 全球直连",
+        "DIRECT",
         "🚀 节点选择",
         "♻️ 自动选择",
     ]);
@@ -284,8 +350,8 @@ function main(config) {
     // 🎥 奈飞节点
     const NetflixRegex = /NF|奈飞|解锁|Netflix|NETFLIX|Media/u;
     const NetflixProxies = getProxiesByRegex(config.proxies, NetflixRegex, [
-        "REJECT",
-        "🎯 全球直连",
+        "DIRECT",
+        "REJECT"
     ]);
 
 
@@ -303,8 +369,7 @@ function main(config) {
             ...groupBaseOption,
             name: "🔗 Ipv6",
             type: "select",
-            "include-all": true,
-            proxies: commonProxies,
+            "include-all": true
         },
         {
             ...groupBaseOption,
@@ -368,8 +433,7 @@ function main(config) {
             ...groupBaseOption,
             name,
             type: "select",
-            proxies: commonProxies,
-            "include-all": true,
+            proxies: commonProxies
         })),
         {
             ...groupBaseOption,
@@ -393,7 +457,7 @@ function main(config) {
             ...groupBaseOption,
             name: "📺 哔哩哔哩",
             type: "select",
-            proxies: ["🎯 全球直连", ...allAreaProxieNames],
+            proxies: ["DIRECT", ...allAreaProxiesNames],
         },
         {
             ...groupBaseOption,
@@ -411,13 +475,13 @@ function main(config) {
             ...groupBaseOption,
             name: "🛑 广告拦截",
             type: "select",
-            proxies: ["REJECT", "🎯 全球直连"],
+            proxies: ["REJECT", "DIRECT"],
         },
         {
             ...groupBaseOption,
             name: "🍃 应用净化",
             type: "select",
-            proxies: ["REJECT", "🎯 全球直连"],
+            proxies: ["REJECT", "DIRECT"],
         },
         ...allAreaGroup
     ];

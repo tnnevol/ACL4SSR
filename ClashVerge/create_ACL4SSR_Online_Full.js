@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 
-const {createRuleProvidersByRuleset, createRulesetList} = require("./helper");
+const {createRuleProvidersByRuleset, createRuleProvidersMap} = require("./helper");
 
 const {
     ACL4SSR_ONLINE_FULL_RULE_SET_TEMP,
@@ -11,19 +11,19 @@ const {
 } = require("./config");
 
 async function createConfigScript() {
-    const rulesetList = createRulesetList(ACL4SSR_ONLINE_FULL_RULE_SET_TEMP)
+    const ruleProvidersMap = await createRuleProvidersMap(ACL4SSR_ONLINE_FULL_RULE_SET_TEMP)
     await createRuleProvidersByRuleset(
-        rulesetList,
+        ruleProvidersMap,
         "acl4ssr-online-full"
     );
     const ruleProviders = {};
     const rules = [];
 
-    rulesetList.forEach(({name}) =>{
+    Object.keys(ruleProvidersMap).forEach((name) =>{
         ruleProviders[name] = {
             ...RULE_PROVIDER_COMMON,
             behavior: "classical",
-            url: `${GITHUB_RAW_BASE_URL}/ClashVerge/dist/scripts/acl4ssr-online-full/${name}.txt`,
+            url: `${GITHUB_RAW_BASE_URL}/ClashVerge/dist/clash-rules/acl4ssr-online-full/${name}.txt`,
             path: `./ruleset/tnnevol/${name}.yaml`,
         };
         rules.push(`RULE-SET,${name},${REVERSED_RULE_SET_NAME_DICT[name]}`)
@@ -102,16 +102,35 @@ const groupBaseOption = {
     hidden: false,
 };
 
-
-// 定义 main 函数
 function main(config) {
+    // 狮城地区
+    const SingaporeRegex = /新加坡|坡|狮城|SG|Singapore/u;
+    const SingaporeProxies = getProxiesByRegex(config.proxies, SingaporeRegex);
+
+    // 日本地区
+    const JapanRegex = /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|Tokyo/u;
+    const JapanProxies = getProxiesByRegex(config.proxies, JapanRegex);
+
+    // 美国地区
+    const AmericaRegex =
+        /美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States/u;
+    const AmericaProxies = getProxiesByRegex(config.proxies, AmericaRegex);
+
+    // 台湾地区
+    const TaiwanRegex = /台|新北|彰化|TW|Taiwan/u;
+    const TaiwanProxies = getProxiesByRegex(config.proxies, TaiwanRegex);
+
+    // 🇭🇰 香港节点
+    const HongKongRegex = /港|HK|hk|Hong Kong|HongKong|hongkong|Hongkong|🇭🇰/u;
+    const HongKongProxies = getProxiesByRegex(config.proxies, HongKongRegex);
+
     // 🇺🇲 美国节点
     const US = {
         ...groupBaseOption,
         name: "🇺🇲 美国节点",
         type: "url-test",
         tolerance: 30,
-        filter: /美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States/u,
+        proxies: AmericaProxies,
     };
 
     // 🇭🇰 香港节点
@@ -120,7 +139,7 @@ function main(config) {
         name: "🇭🇰 香港节点",
         type: "url-test",
         tolerance: 30,
-        filter: /港|HK|hk|Hong Kong|HongKong|hongkong|Hongkong|🇭🇰/u
+        proxies: HongKongProxies,
     };
 
     // 🇨🇳 台湾节点
@@ -129,7 +148,7 @@ function main(config) {
         name: "🇨🇳 台湾节点",
         type: "url-test",
         tolerance: 30,
-        filter: /台|新北|彰化|TW|Taiwan/u
+        proxies: TaiwanProxies,
     };
 
     // 🇯🇵 日本节点
@@ -138,7 +157,7 @@ function main(config) {
         name: "🇯🇵 日本节点",
         type: "url-test",
         tolerance: 30,
-        filter: /日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan|Tokyo/u
+        proxies: JapanProxies,
     };
 
     // 🇸🇬 狮城节点
@@ -147,7 +166,7 @@ function main(config) {
         name: "🇸🇬 狮城节点",
         type: "url-test",
         tolerance: 30,
-        filter: /新加坡|坡|狮城|SG|Singapore/u
+        proxies: SingaporeProxies,
     };
 
     // 所有区域节点
@@ -155,7 +174,7 @@ function main(config) {
         .filter((point) => {
             return point.proxies.length > 0;
         })
-    const allAreaProxieNames = allAreaGroup
+    const allAreaProxiesNames = allAreaGroup
         .map((point) => point.name);
 
     // 通用的节点组
@@ -165,14 +184,14 @@ function main(config) {
         "故障转移",
         "负载均衡(散列)",
         "负载均衡(轮询)",
-        ...allAreaProxieNames,
-        "🎯 全球直连",
+        ...allAreaProxiesNames,
+        "DIRECT",
     ];
 
     // 🎶 网易音乐
     const NetEaseRegex = /网易|音乐|解锁|Music|NetEase/u;
     const NetEaseProxies = getProxiesByRegex(config.proxies, NetEaseRegex, [
-        "🎯 全球直连",
+        "DIRECT",
         "🚀 节点选择",
         "♻️ 自动选择",
     ]);
@@ -180,8 +199,8 @@ function main(config) {
     // 🎥 奈飞节点
     const NetflixRegex = /NF|奈飞|解锁|Netflix|NETFLIX|Media/u;
     const NetflixProxies = getProxiesByRegex(config.proxies, NetflixRegex, [
-        "REJECT",
-        "🎯 全球直连",
+        "DIRECT",
+        "REJECT"
     ]);
 
 
@@ -199,8 +218,7 @@ function main(config) {
             ...groupBaseOption,
             name: "🔗 Ipv6",
             type: "select",
-            "include-all": true,
-            proxies: commonProxies,
+            "include-all": true
         },
         {
             ...groupBaseOption,
@@ -264,8 +282,7 @@ function main(config) {
             ...groupBaseOption,
             name,
             type: "select",
-            proxies: commonProxies,
-            "include-all": true,
+            proxies: commonProxies
         })),
         {
             ...groupBaseOption,
@@ -289,7 +306,7 @@ function main(config) {
             ...groupBaseOption,
             name: "📺 哔哩哔哩",
             type: "select",
-            proxies: ["🎯 全球直连", ...allAreaProxieNames],
+            proxies: ["DIRECT", ...allAreaProxiesNames],
         },
         {
             ...groupBaseOption,
@@ -307,13 +324,13 @@ function main(config) {
             ...groupBaseOption,
             name: "🛑 广告拦截",
             type: "select",
-            proxies: ["REJECT", "🎯 全球直连"],
+            proxies: ["REJECT", "DIRECT"],
         },
         {
             ...groupBaseOption,
             name: "🍃 应用净化",
             type: "select",
-            proxies: ["REJECT", "🎯 全球直连"],
+            proxies: ["REJECT", "DIRECT"],
         },
         ...allAreaGroup
     ];
@@ -324,14 +341,11 @@ function main(config) {
 
     return config;
 }
-
   `
 
     // 没有 dist 目录创建 dist 目录
-  /*  if (!fs.existsSync(SCRIPT_OUT_PATH)) {
-        fs.mkdirSync(SCRIPT_OUT_PATH);
-    }*/
-    fs.ensureDirSync(SCRIPT_OUT_PATH)
+    fs.ensureDirSync(SCRIPT_OUT_PATH, 0o2775);
+
     fs.writeFileSync(`${SCRIPT_OUT_PATH}/ACL4SSR_Online_Full.js`, scriptTemp);
 }
 

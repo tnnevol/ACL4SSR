@@ -17,86 +17,83 @@ const {
  * @property {string} src - 规则集的来源或路径。
  */
 
-
 /**
- * 创建规则集对应的规则文件名称
- * @param {Ruleset[]} rulesetList
- * @return {Promise<{name: string, rules: string[]}>}
+ *
+ * @param {string} temp
+ * @return {Ruleset[]}
  */
-async function createRuleProvidersMap(rulesetList) {
-    const rulesList = await Promise.all(
-        rulesetList.map(({src, name}) =>
-            $axios.get(src).then((res) => {
-                return {
-                    name,
-                    rules: res.data
-                        // 注释
-                        .replace(COMMENT_REG2, "")
-                        // 不支持的通配符
-                        .replace(/^USER-AGENT.*|URL-REGEX.*$/gm, "")
-                        // 空行
-                        .replace(BLANK_LINE_REG, "")
-                        // 结尾
-                        .replace(END_SPACE_REGEX, "")
-                        .split("\n"),
-                };
-            })
-        )
-    );
-    return rulesList.reduce((accMap, curr) => {
-        const {name, rules} = curr;
-        if (!accMap[name]) {
-            accMap[name] = ["payload:", ...rules.map((rule) => `  - ${rule}`)];
-        } else {
-            accMap[name].push(...rules);
-        }
-        return accMap;
-    }, {});
+function createRulesetList  (temp) {
+    const rulesetList = [
+        /*  {
+          name: "",
+          src: "",
+        }, */
+    ];
+    temp
+        .replace(COMMENT_REG, "")
+        .replace(BLANK_LINE_REG, "")
+        .replace(/^ruleset=/gm, "")
+        .split("\n")
+        .forEach((line) => {
+            const [name, src] = line.split(",");
+            if (!name || !RULE_SET_NAME_DICT[name] || !src) return;
+            rulesetList.push({
+                name: RULE_SET_NAME_DICT[name],
+                src,
+            });
+        });
+    return rulesetList;
 }
 
-
 module.exports = {
-    /**
-     *
-     * @param {string} rulesetsStr
-     * @return {Ruleset[]}
-     */
-    createRulesetList: function (rulesetsStr) {
-        const rulesetList = [
-            /*  {
-              name: "",
-              src: "",
-            }, */
-        ];
-        rulesetsStr
-            .replace(COMMENT_REG, "")
-            .replace(BLANK_LINE_REG, "")
-            .replace(/^ruleset=/gm, "")
-            .split("\n")
-            .forEach((line) => {
-                const [name, src] = line.split(",");
-                if (!name || !RULE_SET_NAME_DICT[name] || !src) return;
-                rulesetList.push({
-                    name: RULE_SET_NAME_DICT[name],
-                    src,
-                });
-            });
-        return rulesetList;
-    },
+    createRulesetList,
 
+    /**
+     * 创建规则集对应的规则文件名称
+     * @param {string} temp
+     * @return {Promise<{name: string, rules: string[]}>}
+     */
+    createRuleProvidersMap: async function (temp) {
+        const rulesetList = createRulesetList(temp)
+        const rulesList = await Promise.all(
+            rulesetList.map(({src, name}) =>
+                $axios.get(src).then((res) => {
+                    return {
+                        name,
+                        rules: res.data
+                            // 注释
+                            .replace(COMMENT_REG2, "")
+                            // 不支持的通配符
+                            .replace(/^USER-AGENT.*|URL-REGEX.*$/gm, "")
+                            // 空行
+                            .replace(BLANK_LINE_REG, "")
+                            // 结尾
+                            .replace(END_SPACE_REGEX, "")
+                            .split("\n"),
+                    };
+                })
+            )
+        );
+        return rulesList.reduce((accMap, curr) => {
+            const {name, rules} = curr;
+            if (!accMap[name]) {
+                accMap[name] = ["payload:", ...rules.map((rule) => `  - ${rule}`)];
+            } else {
+                accMap[name].push(...rules.map((rule) => `  - ${rule}`));
+            }
+            return accMap;
+        }, {});
+    },
     /**
      * 创建规则集对应的规则文件
-     * @param {Ruleset[]} rulesetList
+     * @param {{name: string, rules: string[]}} ruleProvidersMap
      * @param {string} configType - 配置文件存放位置
      * @return {Promise<void>}
      */
-    createRuleProvidersByRuleset: async function (rulesetList, configType) {
-        const OUT_PATH = [CLASH_RULE_OUT_PATH, configType].filter(Boolean).join("/");
-        const ruleProvidersMap = await createRuleProvidersMap(rulesetList);
-        /*if (!fs.ensureDirSync(OUT_PATH)) {
-            fs.mkdirSync(OUT_PATH);
-        }*/
-        fs.ensureDirSync(OUT_PATH)
+    createRuleProvidersByRuleset: async function (ruleProvidersMap, configType) {
+        const OUT_PATH = [CLASH_RULE_OUT_PATH, configType].filter(Boolean).join("/")
+        fs.ensureDirSync(OUT_PATH, 0o2775);
+
         Object.entries(ruleProvidersMap).forEach(([name, rules]) => {
             fs.writeFileSync(`${OUT_PATH}/${name}.txt`, rules.join("\n"));
         });

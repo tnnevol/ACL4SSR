@@ -5,11 +5,11 @@
 
 # 在 clash verge script 中使用
 
- 项目 ClashVerge 目录下下有 clash verge script 脚本（ClashVerge/dist/ACL4SSR_Online_Full.js），该脚本规则使用的是 ACL4SSR_Online_Full并加入了一些定制的规则内容。
+ 项目 ClashVerge 目录下下有 clash verge script 脚本（ClashVerge/dist/script/*.js），该脚本加入了一些定制的规则内容。
 
  ## 使用
   
-  复制 [ACL4SSR_Online_Full.js](https://github.com/tnnevol/ACL4SSR/blob/master/ClashVerge/dist/ACL4SSR_Online_Full.js) 中的内容，粘贴到 Clash verge 的 __全局扩展__ 或 __指定订阅__ 脚本中。
+  复制 [ACL4SSR_Online_Full.js](https://github.com/tnnevol/ACL4SSR/blob/master/ClashVerge/dist/scripts/ACL4SSR_Online_Full.js) 中的内容，粘贴到 Clash verge 的 __全局扩展__ 或 __指定订阅__ 脚本中。
 
   ![Alt text](./ClashVerge/assets/image.png)
   ![Alt text](./ClashVerge/assets/image2.png)

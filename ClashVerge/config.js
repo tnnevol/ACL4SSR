@@ -92,7 +92,7 @@ const RULE_PROVIDER_COMMON = {
     format: "yaml",
     interval: 86400,
 };
-const GITHUB_RAW_BASE_URL = "https://raw.githubusercontent.com/tnnevol/ACL4SSR/master";
+const GITHUB_RAW_BASE_URL = "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master";
 
 module.exports = {
     BLANK_LINE_REG,
@@ -105,5 +105,6 @@ module.exports = {
     REVERSED_RULE_SET_NAME_DICT,
     OUT_PATH,
     SCRIPT_OUT_PATH,
-    GITHUB_RAW_BASE_URL
+    GITHUB_RAW_BASE_URL,
+    RULE_PROVIDER_COMMON
 };
