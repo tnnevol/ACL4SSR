@@ -2,3 +2,4 @@ payload:
   - IP-CIDR6,2409::/16
   - DOMAIN-SUFFIX,ipv6.baidu.com
   - DOMAIN-SUFFIX,test-ipv6.com
+  - DOMAIN-SUFFIX,tnnevol.cn
