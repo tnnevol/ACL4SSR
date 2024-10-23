@@ -7,6 +7,14 @@ function getProxiesByRegex(proxies, regex, concatProxies = []) {
 }
 
 const ruleProviders = {
+  "Ipv6": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Ipv6.txt",
+    "path": "./ruleset/tnnevol/Ipv6.yaml"
+  },
   "LocalAreaNetwork": {
     "type": "http",
     "format": "yaml",
@@ -38,14 +46,6 @@ const ruleProviders = {
     "behavior": "classical",
     "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/GoogleFCM.txt",
     "path": "./ruleset/tnnevol/GoogleFCM.yaml"
-  },
-  "Ipv6": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Ipv6.txt",
-    "path": "./ruleset/tnnevol/Ipv6.yaml"
   },
   "Bing": {
     "type": "http",
@@ -171,11 +171,11 @@ const ruleProviders = {
 
 const rules = [
     ...[
+  "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,LocalAreaNetwork,🎯 全球直连",
   "RULE-SET,BanAD,🛑 广告拦截",
   "RULE-SET,BanProgramAD,🍃 应用净化",
   "RULE-SET,GoogleFCM,📢 谷歌FCM",
-  "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,Bing,Ⓜ️ 微软Bing",
   "RULE-SET,OneDrive,Ⓜ️ 微软云盘",
   "RULE-SET,Microsoft,Ⓜ️ 微软服务",
