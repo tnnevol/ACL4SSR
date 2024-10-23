@@ -9,4 +9,3 @@ IP-CIDR6,2409::/16
 ## domain
 DOMAIN-SUFFIX,ipv6.baidu.com
 DOMAIN-SUFFIX,test-ipv6.com
-DOMAIN-SUFFIX,tnnevol.cn
