@@ -6982,10 +6982,6 @@ payload:
   - IP-CIDR,223.255.0.0/17,no-resolve
   - IP-CIDR,223.255.236.0/22,no-resolve
   - IP-CIDR,223.255.252.0/23,no-resolve
-  - DOMAIN-SUFFIX,tnnevol.cn,no-resolve
-  - DOMAIN-SUFFIX,lanhuapp.com
-  - DOMAIN-SUFFIX,freetek.cc
-  - DOMAIN-SUFFIX,snkoudai.com
   - DOMAIN-SUFFIX,13th.tech
   - DOMAIN-SUFFIX,423down.com
   - DOMAIN-SUFFIX,bokecc.com
@@ -7833,3 +7829,7 @@ payload:
   - PROCESS-NAME,DownloadService.exe
   - PROCESS-NAME,Weiyun.exe
   - PROCESS-NAME,baidunetdisk.exe
+  - DOMAIN-SUFFIX,tnnevol.cn,no-resolve
+  - DOMAIN-SUFFIX,lanhuapp.com
+  - DOMAIN-SUFFIX,freetek.cc
+  - DOMAIN-SUFFIX,snkoudai.com
