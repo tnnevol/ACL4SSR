@@ -5,6 +5,13 @@
 # ip
 # 权重后期应当放到最低 - 移动
 IP-CIDR6,2409::/16
+IP-CIDR6,240e::/24
+IP-CIDR6,240e:100::/24
+IP-CIDR6,240e:200::/23
+IP-CIDR6,240e:400::/22
+IP-CIDR6,240e:800::/21
+IP-CIDR6,240e:1000::/20
+IP-CIDR6,240e:2000::/19
 
 ## domain
 DOMAIN-SUFFIX,ipv6.baidu.com
