@@ -1,4 +1,4 @@
-const fs = require('fs-extra')
+const fs = require("fs-extra");
 
 const {
   ACL4SSR_ONLINE_FULL_RULE_SET_TEMP,
@@ -8,36 +8,36 @@ const {
   REVERSED_RULE_SET_NAME_DICT,
   DNS_CONFIG,
   GROUP_BASE_OPTION,
-} = require('./config')
+} = require("./config");
 
-const { createRuleProvidersByRuleset, createRuleProvidersMap } = require('./helper')
+const {
+  createRuleProvidersByRuleset,
+  createRuleProvidersMap,
+} = require("./helper");
 
 async function createConfigScript() {
-  const ruleProvidersMap = await createRuleProvidersMap(ACL4SSR_ONLINE_FULL_RULE_SET_TEMP)
-  await createRuleProvidersByRuleset(
-    ruleProvidersMap,
-    'acl4ssr-online-full',
-  )
-  const ruleProviders = {}
-  const rules = []
+  const ruleProvidersMap = await createRuleProvidersMap(
+    ACL4SSR_ONLINE_FULL_RULE_SET_TEMP
+  );
+  await createRuleProvidersByRuleset(ruleProvidersMap, "acl4ssr-online-full");
+  const ruleProviders = {};
+  const rules = [];
 
   Object.keys(ruleProvidersMap).forEach((name) => {
     ruleProviders[name] = {
       ...RULE_PROVIDER_COMMON,
-      behavior: 'classical',
+      behavior: "classical",
       url: `${GITHUB_RAW_BASE_URL}/ClashVerge/dist/clash-rules/acl4ssr-online-full/${name}.txt`,
       path: `./ruleset/tnnevol/${name}.yaml`,
-    }
-    rules.push(`RULE-SET,${name},${REVERSED_RULE_SET_NAME_DICT[name]}`)
-  })
-
-  const scriptTemp = `
-function getProxiesByRegex(proxies, regex, concatProxies = []) {
-    return [
-        ...proxies.filter((e) => regex.test(e.name)).map((e) => e.name),
-        ...concatProxies,
-    ];
-}
+    };
+    rules.push(`RULE-SET,${name},${REVERSED_RULE_SET_NAME_DICT[name]}`);
+  });
+  // doc
+  // https://www.clashverge.dev/guide/script.html#1
+  // https://wiki.metacubex.one/config/rule-providers/#interval
+  const scriptTemp = `// 需要排除的节点名称正则
+const excludeRegexStr = "^(?!.*(下载|测试)).*";
+const excludeRegex = new RegExp(excludeRegexStr, "u");
 
 const ruleProviders = ${JSON.stringify(ruleProviders, null, 2)};
 
@@ -51,6 +51,16 @@ const rules = [
 
 // 代理组通用配置
 const groupBaseOption = ${JSON.stringify(GROUP_BASE_OPTION, null, 2)};
+
+// 获取符合正则表达式的代理组
+function getProxiesByRegex(proxies, regex, concatProxies = []) {
+  return [
+    ...proxies
+      .filter((e) => regex.test(e.name) && excludeRegex.test(e.name))
+      .map((e) => e.name),
+    ...concatProxies,
+  ];
+}
 
 function main(config) {
     // 狮城地区
@@ -172,12 +182,14 @@ function main(config) {
             ...groupBaseOption,
             name: "🔗 Ipv6",
             type: "select",
-            "include-all": true
+            filter: excludeRegexStr,
+            "include-all": true,
         },
         {
             ...groupBaseOption,
             name: "🚀 手动切换",
             type: "select",
+            filter: excludeRegexStr,
             "include-all": true,
         },
         {
@@ -185,12 +197,14 @@ function main(config) {
             name: "♻️ 自动选择",
             type: "url-test",
             tolerance: 100,
+            filter: excludeRegexStr,
             "include-all": true,
         },
         {
             ...groupBaseOption,
             name: "故障转移",
             type: "fallback",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/ambulance.svg",
         },
@@ -199,6 +213,7 @@ function main(config) {
             name: "负载均衡(散列)",
             type: "load-balance",
             strategy: "consistent-hashing",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/merry_go.svg",
         },
@@ -207,6 +222,7 @@ function main(config) {
             name: "负载均衡(轮询)",
             type: "load-balance",
             strategy: "round-robin",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/balance.svg",
         },
@@ -292,12 +308,12 @@ function main(config) {
 
     return config;
 }
-  `
+  `;
 
   // 没有 dist 目录创建 dist 目录
-  fs.ensureDirSync(SCRIPT_OUT_PATH, 0o2775)
+  fs.ensureDirSync(SCRIPT_OUT_PATH, 0o2775);
 
-  fs.writeFileSync(`${SCRIPT_OUT_PATH}/ACL4SSR_Online_Full.js`, scriptTemp)
+  fs.writeFileSync(`${SCRIPT_OUT_PATH}/ACL4SSR_Online_Full.js`, scriptTemp);
 }
 
-createConfigScript()
+createConfigScript();

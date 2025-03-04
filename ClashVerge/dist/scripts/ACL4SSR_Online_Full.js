@@ -1,10 +1,7 @@
 
-function getProxiesByRegex(proxies, regex, concatProxies = []) {
-    return [
-        ...proxies.filter((e) => regex.test(e.name)).map((e) => e.name),
-        ...concatProxies,
-    ];
-}
+// 需要排除的节点名称正则
+const excludeRegexStr = "^(?!.*(下载|测试)).*";
+const excludeRegex = new RegExp(excludeRegexStr, "u");
 
 const ruleProviders = {
   "Ipv6": {
@@ -208,6 +205,16 @@ const groupBaseOption = {
   "hidden": false
 };
 
+// 获取符合正则表达式的代理组
+function getProxiesByRegex(proxies, regex, concatProxies = []) {
+  return [
+    ...proxies
+      .filter((e) => regex.test(e.name) && excludeRegex.test(e.name))
+      .map((e) => e.name),
+    ...concatProxies,
+  ];
+}
+
 function main(config) {
     // 狮城地区
     const SingaporeRegex = /新加坡|坡|狮城|SG|Singapore/u;
@@ -388,12 +395,14 @@ function main(config) {
             ...groupBaseOption,
             name: "🔗 Ipv6",
             type: "select",
-            "include-all": true
+            filter: excludeRegexStr,
+            "include-all": true,
         },
         {
             ...groupBaseOption,
             name: "🚀 手动切换",
             type: "select",
+            filter: excludeRegexStr,
             "include-all": true,
         },
         {
@@ -401,12 +410,14 @@ function main(config) {
             name: "♻️ 自动选择",
             type: "url-test",
             tolerance: 100,
+            filter: excludeRegexStr,
             "include-all": true,
         },
         {
             ...groupBaseOption,
             name: "故障转移",
             type: "fallback",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/ambulance.svg",
         },
@@ -415,6 +426,7 @@ function main(config) {
             name: "负载均衡(散列)",
             type: "load-balance",
             strategy: "consistent-hashing",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/merry_go.svg",
         },
@@ -423,6 +435,7 @@ function main(config) {
             name: "负载均衡(轮询)",
             type: "load-balance",
             strategy: "round-robin",
+            filter: excludeRegexStr,
             "include-all": true,
             icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/balance.svg",
         },
