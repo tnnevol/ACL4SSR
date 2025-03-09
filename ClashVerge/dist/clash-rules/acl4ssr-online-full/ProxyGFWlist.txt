@@ -6302,4 +6302,5 @@ payload:
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,picjs.xyz
   - DOMAIN-SUFFIX,mypikpak.com
+  - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,iil.im
