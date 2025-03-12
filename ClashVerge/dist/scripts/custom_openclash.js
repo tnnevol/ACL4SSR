@@ -3,193 +3,187 @@ const excludeRegexStr = "^(?!.*(下载|测试)).*";
 const excludeRegex = new RegExp(excludeRegexStr, "u");
 
 const ruleProviders = {
-  "Ipv6": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Ipv6.txt",
-    "path": "./ruleset/tnnevol/Ipv6.yaml"
-  },
   "LocalAreaNetwork": {
     "type": "http",
     "format": "yaml",
     "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/LocalAreaNetwork.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/LocalAreaNetwork.txt",
     "path": "./ruleset/tnnevol/LocalAreaNetwork.yaml"
-  },
-  "BanAD": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/BanAD.txt",
-    "path": "./ruleset/tnnevol/BanAD.yaml"
-  },
-  "BanProgramAD": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/BanProgramAD.txt",
-    "path": "./ruleset/tnnevol/BanProgramAD.yaml"
-  },
-  "GoogleFCM": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/GoogleFCM.txt",
-    "path": "./ruleset/tnnevol/GoogleFCM.yaml"
-  },
-  "Bing": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bing.txt",
-    "path": "./ruleset/tnnevol/Bing.yaml"
-  },
-  "OneDrive": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/OneDrive.txt",
-    "path": "./ruleset/tnnevol/OneDrive.yaml"
-  },
-  "Microsoft": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Microsoft.txt",
-    "path": "./ruleset/tnnevol/Microsoft.yaml"
-  },
-  "Apple": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Apple.txt",
-    "path": "./ruleset/tnnevol/Apple.yaml"
-  },
-  "Telegram": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Telegram.txt",
-    "path": "./ruleset/tnnevol/Telegram.yaml"
-  },
-  "OpenAi": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/OpenAi.txt",
-    "path": "./ruleset/tnnevol/OpenAi.yaml"
-  },
-  "NetEaseMusic": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/NetEaseMusic.txt",
-    "path": "./ruleset/tnnevol/NetEaseMusic.yaml"
-  },
-  "Games": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Games.txt",
-    "path": "./ruleset/tnnevol/Games.yaml"
-  },
-  "YouTube": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/YouTube.txt",
-    "path": "./ruleset/tnnevol/YouTube.yaml"
-  },
-  "Netflix": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Netflix.txt",
-    "path": "./ruleset/tnnevol/Netflix.yaml"
-  },
-  "Bahamut": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bahamut.txt",
-    "path": "./ruleset/tnnevol/Bahamut.yaml"
-  },
-  "Bilibili": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/Bilibili.txt",
-    "path": "./ruleset/tnnevol/Bilibili.yaml"
-  },
-  "ChinaMedia": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ChinaMedia.txt",
-    "path": "./ruleset/tnnevol/ChinaMedia.yaml"
-  },
-  "ProxyMedia": {
-    "type": "http",
-    "format": "yaml",
-    "interval": 86400,
-    "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ProxyMedia.txt",
-    "path": "./ruleset/tnnevol/ProxyMedia.yaml"
   },
   "ProxyGFWlist": {
     "type": "http",
     "format": "yaml",
     "interval": 86400,
     "behavior": "classical",
-    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/acl4ssr-online-full/ProxyGFWlist.txt",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/ProxyGFWlist.txt",
     "path": "./ruleset/tnnevol/ProxyGFWlist.yaml"
+  },
+  "Telegram": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Telegram.txt",
+    "path": "./ruleset/tnnevol/Telegram.yaml"
+  },
+  "Twitter": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Twitter.txt",
+    "path": "./ruleset/tnnevol/Twitter.yaml"
+  },
+  "Speedtest": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Speedtest.txt",
+    "path": "./ruleset/tnnevol/Speedtest.yaml"
+  },
+  "YouTube": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/YouTube.txt",
+    "path": "./ruleset/tnnevol/YouTube.yaml"
+  },
+  "AppleTV": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/AppleTV.txt",
+    "path": "./ruleset/tnnevol/AppleTV.yaml"
+  },
+  "Apple": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Apple.txt",
+    "path": "./ruleset/tnnevol/Apple.yaml"
+  },
+  "Microsoft": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Microsoft.txt",
+    "path": "./ruleset/tnnevol/Microsoft.yaml"
+  },
+  "GoogleFCM": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/GoogleFCM.txt",
+    "path": "./ruleset/tnnevol/GoogleFCM.yaml"
+  },
+  "TikTok": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/TikTok.txt",
+    "path": "./ruleset/tnnevol/TikTok.yaml"
+  },
+  "DisneyPlus": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/DisneyPlus.txt",
+    "path": "./ruleset/tnnevol/DisneyPlus.yaml"
+  },
+  "HBO": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/HBO.txt",
+    "path": "./ruleset/tnnevol/HBO.yaml"
+  },
+  "PrimeVideo": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/PrimeVideo.txt",
+    "path": "./ruleset/tnnevol/PrimeVideo.yaml"
+  },
+  "Emby": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Emby.txt",
+    "path": "./ruleset/tnnevol/Emby.yaml"
+  },
+  "Spotify": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Spotify.txt",
+    "path": "./ruleset/tnnevol/Spotify.yaml"
+  },
+  "Bahamut": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Bahamut.txt",
+    "path": "./ruleset/tnnevol/Bahamut.yaml"
+  },
+  "Shopee": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Shopee.txt",
+    "path": "./ruleset/tnnevol/Shopee.yaml"
   }
 };
 
 const rules = [
     ...[
-  "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,LocalAreaNetwork,🎯 全球直连",
-  "RULE-SET,BanAD,🛑 广告拦截",
-  "RULE-SET,BanProgramAD,🍃 应用净化",
-  "RULE-SET,GoogleFCM,📢 谷歌FCM",
-  "RULE-SET,Bing,Ⓜ️ 微软Bing",
-  "RULE-SET,OneDrive,Ⓜ️ 微软云盘",
-  "RULE-SET,Microsoft,Ⓜ️ 微软服务",
-  "RULE-SET,Apple,🍎 苹果服务",
+  "RULE-SET,ProxyGFWlist,🚀 节点选择",
   "RULE-SET,Telegram,📲 电报消息",
-  "RULE-SET,OpenAi,💬 OpenAi",
-  "RULE-SET,NetEaseMusic,🎶 网易音乐",
-  "RULE-SET,Games,🎮 游戏平台",
+  "RULE-SET,Twitter,🕊️ Twitter(X)",
+  "RULE-SET,Speedtest,🚀 测速工具",
   "RULE-SET,YouTube,📹 油管视频",
-  "RULE-SET,Netflix,🎥 奈飞视频",
+  "RULE-SET,AppleTV,🎥 AppleTV+",
+  "RULE-SET,Apple,🍎 苹果服务",
+  "RULE-SET,Microsoft,Ⓜ️ 微软服务",
+  "RULE-SET,GoogleFCM,📢 谷歌FCM",
+  "RULE-SET,TikTok,🎶 TikTok",
+  "RULE-SET,DisneyPlus,🎥 DisneyPlus",
+  "RULE-SET,HBO,🎥 HBO",
+  "RULE-SET,PrimeVideo,🎥 PrimeVideo",
+  "RULE-SET,Emby,🎥 Emby",
+  "RULE-SET,Spotify,🎻 Spotify",
   "RULE-SET,Bahamut,📺 巴哈姆特",
-  "RULE-SET,Bilibili,📺 哔哩哔哩",
-  "RULE-SET,ChinaMedia,🌏 国内媒体",
-  "RULE-SET,ProxyMedia,🌍 国外媒体",
-  "RULE-SET,ProxyGFWlist,🚀 节点选择"
+  "RULE-SET,Shopee,🛒 国外电商"
 ],
     // 其他规则
-    ...[],
+    ...[
+  "GEOSITE,cn,🎯 全球直连,DIRECT",
+  "GEOSITE,google-cn,🎯 全球直连,DIRECT",
+  "GEOSITE,category-games@cn,🎯 全球直连,DIRECT",
+  "GEOSITE,category-public-tracker,🎯 全球直连,DIRECT",
+  "GEOSITE,openai,💬 ChatGPT,PROXY",
+  "GEOSITE,anthropic,🤖 AI服务,PROXY",
+  "GEOSITE,google-gemini,🤖 AI服务,PROXY",
+  "GEOSITE,github,🚀 GitHub,PROXY",
+  "GEOSITE,gfw,🚀 节点选择,PROXY",
+  "GEOSITE,steam,🎮 Steam,PROXY",
+  "GEOSITE,category-games,🎮 游戏平台,PROXY"
+],
     "GEOIP,LAN,🎯 全球直连,no-resolve",
     "GEOIP,CN,🎯 全球直连,no-resolve",
     "MATCH,🐟 漏网之鱼"
@@ -461,7 +455,23 @@ function main(config) {
             "🍎 苹果服务",
             "🎮 游戏平台",
             "🐟 漏网之鱼",
-            ...[]
+            ...[
+  "🚀 GitHub",
+  "🚀 测速工具",
+  "🎥 AppleTV+",
+  "🕊️ Twitter(X)",
+  "💬 ChatGPT",
+  "💬 Copilot",
+  "🤖 AI服务",
+  "🎶 TikTok",
+  "🎥 DisneyPlus",
+  "🎥 HBO",
+  "🎥 PrimeVideo",
+  "🎥 Emby",
+  "🎮 Steam",
+  "🎻 Spotify",
+  "🛒 国外电商"
+]
         ].map((name) => ({
             ...groupBaseOption,
             name,
