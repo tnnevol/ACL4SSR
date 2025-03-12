@@ -5,7 +5,7 @@
 
 # 在 clash verge script 中使用
 
- 项目 ClashVerge 目录下下有 clash verge script 脚本（ClashVerge/dist/script/*.js），该脚本加入了一些定制的规则内容。
+ 项目 ClashVerge 目录下下有 [ACL4SSR_Online_Full.js](https://github.com/tnnevol/ACL4SSR/blob/master/ClashVerge/dist/scripts/ACL4SSR_Online_Full.js) 脚本，该脚本加入了一些定制的规则内容。
 
  ## 使用
   
