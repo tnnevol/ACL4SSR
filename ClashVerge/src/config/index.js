@@ -42,7 +42,6 @@ const RULE_SET_NAME_DICT = {
   "🎥 Emby": "Emby",
   "🎮 Steam": "Steam",
   "🎻 Spotify": "Spotify",
-  "📺 Bahamut": "Bahamut",
   "🛒 国外电商": "Shopee",
 };
 // 反转键值对

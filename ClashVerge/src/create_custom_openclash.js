@@ -20,7 +20,6 @@ createConfigScript({
     "🎥 Emby",
     "🎮 Steam",
     "🎻 Spotify",
-    "📺 Bahamut",
     "🛒 国外电商",
   ],
   extendsRules: [
