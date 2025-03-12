@@ -3,6 +3,14 @@ const excludeRegexStr = "^(?!.*(下载|测试)).*";
 const excludeRegex = new RegExp(excludeRegexStr, "u");
 
 const ruleProviders = {
+  "Ipv6": {
+    "type": "http",
+    "format": "yaml",
+    "interval": 86400,
+    "behavior": "classical",
+    "url": "https://raw.githubusercontent.com/tnnevol/ACL4SSR/refs/heads/master/ClashVerge/dist/clash-rules/custom-openclash/Ipv6.txt",
+    "path": "./ruleset/tnnevol/Ipv6.yaml"
+  },
   "LocalAreaNetwork": {
     "type": "http",
     "format": "yaml",
@@ -151,6 +159,7 @@ const ruleProviders = {
 
 const rules = [
     ...[
+  "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,LocalAreaNetwork,🎯 全球直连",
   "RULE-SET,ProxyGFWlist,🚀 节点选择",
   "RULE-SET,Telegram,📲 电报消息",
