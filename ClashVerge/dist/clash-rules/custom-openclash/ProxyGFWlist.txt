@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,iil.im
+  - DOMAIN-SUFFIX,npmjs.com
   - IP-CIDR,120.232.181.162/32,no-resolve
   - IP-CIDR,120.241.147.226/32,no-resolve
   - IP-CIDR,120.253.253.226/32,no-resolve

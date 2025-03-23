@@ -6304,3 +6304,4 @@ payload:
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,iil.im
+  - DOMAIN-SUFFIX,npmjs.com

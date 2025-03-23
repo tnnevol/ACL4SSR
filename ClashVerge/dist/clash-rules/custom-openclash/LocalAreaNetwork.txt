@@ -141,9 +141,24 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
   - DOMAIN-SUFFIX,immortalwrt.org
-  - DOMAIN-SUFFIX,jsdelivr.net
-  - DOMAIN-SUFFIX,github.boki.moe
   - DOMAIN-SUFFIX,gh-proxy.com
+  - DOMAIN-SUFFIX,gh.con.sh
+  - DOMAIN-SUFFIX,gh.ddlc.top
+  - DOMAIN-SUFFIX,gh.llkk.cc
+  - DOMAIN-SUFFIX,ghproxy.cc
+  - DOMAIN-SUFFIX,ghproxy.cfd
+  - DOMAIN-SUFFIX,ghps.cc
+  - DOMAIN-SUFFIX,git.886.be
+  - DOMAIN-SUFFIX,github.abskoop.workers.dev
+  - DOMAIN-SUFFIX,github.boki.moe
+  - DOMAIN-SUFFIX,github.moeyy.xyz
+  - DOMAIN-SUFFIX,github.site
+  - DOMAIN-SUFFIX,github.store
+  - DOMAIN-SUFFIX,hub.gitmirror.com
+  - DOMAIN-SUFFIX,jsdelivr.net
+  - DOMAIN-SUFFIX,kgithub.com
+  - DOMAIN-SUFFIX,dockerpull.pw
+  - DOMAIN-SUFFIX,dockerpull.org
   - DOMAIN-SUFFIX,catsxp.com
   - DOMAIN-KEYWORD,synology
   - DOMAIN-KEYWORD,quickconnect
@@ -159,13 +174,10 @@ payload:
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,akamaihd.net
   - IP-CIDR,5.5.5.5/32,no-resolve
-  - DOMAIN-SUFFIX,cjjd19.com
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,dell.com
   - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cursor.sh
-  - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,ddsrem.com
   - DOMAIN-SUFFIX,ipinfo.io
@@ -182,15 +194,10 @@ payload:
   - DOMAIN-SUFFIX,epg.v1.mk
   - DOMAIN-SUFFIX,epg.aptv.app
   - DOMAIN-SUFFIX,gdcucc.v1.mk
+  - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,golinkapi.com
   - DOMAIN-SUFFIX,forevernine.com
-  - DOMAIN-SUFFIX,giecds.com
-  - DOMAIN-SUFFIX,mashangfangxin.com
   - DOMAIN-SUFFIX,cdkeynogap.com
-  - DOMAIN-SUFFIX,xiaoting.com
-  - DOMAIN-SUFFIX,lvfapiao.com
-  - DOMAIN-SUFFIX,jiucaishuo.com
-  - DOMAIN-SUFFIX,raining.top
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
