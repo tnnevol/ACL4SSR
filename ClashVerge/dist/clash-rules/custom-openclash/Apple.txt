@@ -1467,6 +1467,7 @@ payload:
   - DOMAIN-SUFFIX,appleenews.com
   - DOMAIN-SUFFIX,applemusic.berlin
   - DOMAIN-SUFFIX,applemusic.co
+  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,applemusic.com.au
   - DOMAIN-SUFFIX,applemusic.hamburg
   - DOMAIN-SUFFIX,applemusic.wang
@@ -1499,7 +1500,6 @@ payload:
   - DOMAIN-SUFFIX,iphoto.wang
   - DOMAIN-SUFFIX,musickit.net
   - DOMAIN-SUFFIX,wwwapplemusic.com
-  - DOMAIN-SUFFIX,applemusic.com
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appsto.re
