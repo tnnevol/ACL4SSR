@@ -183,6 +183,7 @@ payload:
   - DOMAIN-SUFFIX,members.3322.org
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,vumstar.com
   - DOMAIN-SUFFIX,akamaihd.net
   - IP-CIDR,5.5.5.5/32,no-resolve
   - DOMAIN-SUFFIX,powershellgallery.com
