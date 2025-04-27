@@ -206,6 +206,13 @@ payload:
   - DOMAIN-SUFFIX,epg.aptv.app
   - DOMAIN-SUFFIX,gdcucc.v1.mk
   - IP-CIDR,108.174.48.100/32,no-resolve
+  - DOMAIN-SUFFIX,bgm.tv
+  - DOMAIN-SUFFIX,chii.in
+  - DOMAIN-SUFFIX,bangumi.tv
+  - DOMAIN-SUFFIX,game.maj-soul.com
+  - DOMAIN-SUFFIX,rewards.bing.com
+  - DOMAIN-SUFFIX,memechen.com
+  - DOMAIN-SUFFIX,tshell.online
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
