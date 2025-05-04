@@ -213,6 +213,7 @@ payload:
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,memechen.com
   - DOMAIN-SUFFIX,tshell.online
+  - DOMAIN-SUFFIX,winyoungreading.com
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
