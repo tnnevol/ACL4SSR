@@ -169,7 +169,7 @@ payload:
   - DOMAIN-SUFFIX,hub.rat.dev
   - DOMAIN-SUFFIX,hub.xdark.top
   - DOMAIN-SUFFIX,registry.dockermirror.com
-  - hf-mirror.com
+  - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-SUFFIX,catsxp.com
   - DOMAIN-KEYWORD,synology
   - DOMAIN-KEYWORD,quickconnect
@@ -214,6 +214,7 @@ payload:
   - DOMAIN-SUFFIX,memechen.com
   - DOMAIN-SUFFIX,tshell.online
   - DOMAIN-SUFFIX,winyoungreading.com
+  - DOMAIN-SUFFIX,5ddd.com
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
