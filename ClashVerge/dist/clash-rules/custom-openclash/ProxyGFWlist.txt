@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,iil.im
