@@ -23,3 +23,4 @@
   增加 ipv6 组
   ![Alt text](./ClashVerge/assets/image5.png)
 
+  增加脚本 https://github.com/Aethersailor/Custom_Clash_Rules/blob/main/cfg/Custom_Clash_Full.ini

@@ -7,5 +7,6 @@ payload:
   - IP-CIDR6,240e:800::/21
   - IP-CIDR6,240e:1000::/20
   - IP-CIDR6,240e:2000::/19
+  - IP-CIDR6,2606::/16
   - DOMAIN-SUFFIX,ipv6.baidu.com
   - DOMAIN-SUFFIX,test-ipv6.com
