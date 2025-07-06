@@ -212,8 +212,7 @@ payload:
   - DOMAIN-SUFFIX,freetv.top
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
-  - DOMAIN-SUFFIX,guanyierp.com
-  - DOMAIN-SUFFIX,chememall.com
+  - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
