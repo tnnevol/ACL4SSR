@@ -176,6 +176,7 @@ payload:
   - DOMAIN-SUFFIX,checkipv6.dyndns.org
   - DOMAIN-SUFFIX,ifconfig.co
   - DOMAIN-SUFFIX,api.myip.com
+  - DOMAIN-SUFFIX,giveup.top
   - DOMAIN-SUFFIX,ipapi.co
   - DOMAIN-SUFFIX,ip6.seeip.org
   - DOMAIN-SUFFIX,kit327.com
@@ -213,6 +214,7 @@ payload:
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,seaflysoft.com
+  - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
   - DOMAIN,ain.bgm.tv
