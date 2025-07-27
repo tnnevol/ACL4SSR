@@ -211,11 +211,67 @@ payload:
   - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,freetv.top
+  - DOMAIN-SUFFIX,plusjp1.younoyes.com
+  - DOMAIN-SUFFIX,plusde1.younoyes.com
+  - DOMAIN-SUFFIX,plusus1.younoyes.com
+  - DOMAIN-SUFFIX,plusus2.younoyes.com
+  - DOMAIN-SUFFIX,plusus3.younoyes.com
+  - DOMAIN-SUFFIX,plushk1.younoyes.com
+  - DOMAIN-SUFFIX,plushk2.younoyes.com
+  - DOMAIN-SUFFIX,plushk3.younoyes.com
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
+  - DOMAIN-SUFFIX,xdqtech.com
+  - DOMAIN-SUFFIX,chaz.fun
+  - DOMAIN-SUFFIX,dushe1.app
+  - DOMAIN-SUFFIX,jxpp.com
+  - DOMAIN-SUFFIX,kmeila.com
+  - DOMAIN-SUFFIX,afuns.me
+  - DOMAIN-SUFFIX,dcgstd.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,scbaijia.com
+  - DOMAIN-SUFFIX,7sef.com
+  - DOMAIN-SUFFIX,u-carloan.com
+  - DOMAIN-SUFFIX,qianuni.com
+  - DOMAIN-SUFFIX,seaflysoft.com
   - DOMAIN-SUFFIX,seedpace.com
   - DOMAIN-SUFFIX,qiaoxuesi.com
-  - DOMAIN-SUFFIX,seaflysoft.com
+  - DOMAIN-SUFFIX,zhongancloud.com
+  - DOMAIN-SUFFIX,tuxing.art
+  - DOMAIN-SUFFIX,lsbj365.com
+  - DOMAIN-SUFFIX,keyoo.com
+  - DOMAIN-SUFFIX,tcy365.net
+  - DOMAIN-SUFFIX,belimked.com
+  - DOMAIN-SUFFIX,lanyun.net
+  - DOMAIN-SUFFIX,52jiawei.com
+  - DOMAIN-SUFFIX,longmenshuju.com
+  - DOMAIN-SUFFIX,fssbcc.top
+  - DOMAIN-SUFFIX,fowep.com
+  - DOMAIN-SUFFIX,tangguobaohe.com
+  - DOMAIN-SUFFIX,ddzn.tech
+  - DOMAIN-SUFFIX,dingdingzn.com
+  - DOMAIN-SUFFIX,737698.xyz
+  - DOMAIN-SUFFIX,znnu.com
+  - DOMAIN-SUFFIX,jxjktzjt.com
+  - DOMAIN-SUFFIX,snltty.com
+  - DOMAIN-SUFFIX,znztv.com
+  - DOMAIN-SUFFIX,suyur.com
+  - DOMAIN-SUFFIX,yunzuoye.net
+  - DOMAIN-SUFFIX,tumukaoyan.com
+  - DOMAIN-SUFFIX,crtyhr.com
+  - DOMAIN-SUFFIX,letaoedu.com
+  - DOMAIN-SUFFIX,sixloy428.top
+  - DOMAIN-SUFFIX,hbctic.com
+  - DOMAIN-SUFFIX,hbcof.com
+  - DOMAIN-SUFFIX,hexiny.com
+  - DOMAIN-SUFFIX,armvm.com
+  - DOMAIN-SUFFIX,xiaochuanyun.com
+  - DOMAIN-SUFFIX,gxnnjidingkeji.top
+  - DOMAIN-SUFFIX,gsgltz.com
+  - DOMAIN-SUFFIX,gsnhcg.com
+  - DOMAIN-SUFFIX,gsjkjt.com
+  - DOMAIN-SUFFIX,gsstic.com
+  - DOMAIN-SUFFIX,sxlljm.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN,ad.10010.com
   - DOMAIN,ad.12306.cn
