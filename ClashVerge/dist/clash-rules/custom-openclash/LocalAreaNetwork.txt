@@ -146,6 +146,7 @@ payload:
   - DOMAIN-SUFFIX,gh.con.sh
   - DOMAIN-SUFFIX,gh.ddlc.top
   - DOMAIN-SUFFIX,gh.llkk.cc
+  - DOMAIN-SUFFIX,ghfast.top
   - DOMAIN-SUFFIX,ghp.ci
   - DOMAIN-SUFFIX,ghproxy.cc
   - DOMAIN-SUFFIX,ghproxy.cfd
@@ -225,10 +226,41 @@ payload:
   - DOMAIN-SUFFIX,chaz.fun
   - DOMAIN-SUFFIX,dushe1.app
   - DOMAIN-SUFFIX,jxpp.com
-  - DOMAIN-SUFFIX,kmeila.com
   - DOMAIN-SUFFIX,afuns.me
-  - DOMAIN-SUFFIX,dcgstd.com
   - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN-SUFFIX,sanligu.top
+  - DOMAIN-SUFFIX,goka.top
+  - DOMAIN-SUFFIX,657192.com
+  - DOMAIN-SUFFIX,xixih.cc
+  - DOMAIN-SUFFIX,vbkrhk.com
+  - DOMAIN-SUFFIX,vcltrade.com
+  - DOMAIN-SUFFIX,vbkhk.com
+  - DOMAIN-SUFFIX,vbkr.com
+  - DOMAIN-SUFFIX,hstbroker.com
+  - DOMAIN-SUFFIX,vclbroker.com
+  - DOMAIN-SUFFIX,vclbrokers.com
+  - DOMAIN-SUFFIX,webs.vc
+  - DOMAIN-SUFFIX,myshopex.com
+  - DOMAIN-SUFFIX,52met.com
+  - DOMAIN-SUFFIX,englibrary.com
+  - DOMAIN-SUFFIX,985hezi.com
+  - DOMAIN-SUFFIX,yiso.fun
+  - DOMAIN-SUFFIX,mslmc.net
+  - DOMAIN-SUFFIX,gzybao.com
+  - DOMAIN-SUFFIX,warmheart.top
+  - DOMAIN-SUFFIX,xiankabao.com
+  - DOMAIN-SUFFIX,ottai.com
+  - DOMAIN-SUFFIX,sksight.com
+  - DOMAIN-SUFFIX,51wanxue.com
+  - DOMAIN-SUFFIX,gaishitongshu.com
+  - DOMAIN-SUFFIX,zuobiao.press
+  - DOMAIN-SUFFIX,coros.com
+  - DOMAIN-SUFFIX,baiyishequ.com
+  - DOMAIN-SUFFIX,bdcb.cc
+  - DOMAIN-SUFFIX,xopenbeta.com
+  - DOMAIN-SUFFIX,igpsport.com
+  - DOMAIN-SUFFIX,kmeila.com
+  - DOMAIN-SUFFIX,dcgstd.com
   - DOMAIN-SUFFIX,scbaijia.com
   - DOMAIN-SUFFIX,7sef.com
   - DOMAIN-SUFFIX,u-carloan.com
