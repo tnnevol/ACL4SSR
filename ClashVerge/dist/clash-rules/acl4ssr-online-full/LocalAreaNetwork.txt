@@ -52,6 +52,19 @@ payload:
   - DOMAIN,rewards.hypixel.net
   - DOMAIN-SUFFIX,koodomobile.com
   - DOMAIN-SUFFIX,koodomobile.ca
+  - DOMAIN-SUFFIX,synology.me
+  - DOMAIN-SUFFIX,DiskStation.me
+  - DOMAIN-SUFFIX,i234.me
+  - DOMAIN-SUFFIX,myDS.me
+  - DOMAIN-SUFFIX,DSCloud.biz
+  - DOMAIN-SUFFIX,DSCloud.me
+  - DOMAIN-SUFFIX,DSCloud.mobi
+  - DOMAIN-SUFFIX,DSmyNAS.com
+  - DOMAIN-SUFFIX,DSmyNAS.net
+  - DOMAIN-SUFFIX,DSmyNAS.org
+  - DOMAIN-SUFFIX,FamilyDS.com
+  - DOMAIN-SUFFIX,FamilyDS.net
+  - DOMAIN-SUFFIX,FamilyDS.org
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
   - DOMAIN-SUFFIX,alt1-mtalk.google.com
@@ -7643,6 +7656,7 @@ payload:
   - DOMAIN-SUFFIX,xiami.net
   - DOMAIN-SUFFIX,ykimg.com
   - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,qwen.ai
   - DOMAIN-SUFFIX,baidu.com
   - DOMAIN-SUFFIX,baidubcr.com
   - DOMAIN-SUFFIX,baidupcs.com

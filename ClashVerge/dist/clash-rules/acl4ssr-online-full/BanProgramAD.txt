@@ -519,7 +519,6 @@ payload:
   - DOMAIN-SUFFIX,shenghuo.xiaomi.com
   - DOMAIN-SUFFIX,stat.pandora.xiaomi.com
   - DOMAIN-SUFFIX,union.mi.com
-  - DOMAIN-SUFFIX,wtradv.market.xiaomi.com
   - DOMAIN-SUFFIX,ad.api.moji.com
   - DOMAIN-SUFFIX,app.moji001.com
   - DOMAIN-SUFFIX,cdn.moji002.com
