@@ -230,11 +230,26 @@ payload:
   - DOMAIN-SUFFIX,goka.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
+  - DOMAIN-SUFFIX,ok321.top
+  - DOMAIN-SUFFIX,bsbsb.top
+  - DOMAIN-SUFFIX,istoreos.com
+  - DOMAIN-SUFFIX,wlcdn88.com
+  - DOMAIN-SUFFIX,sapphiretech.com
+  - DOMAIN-SUFFIX,idsduf.com
+  - DOMAIN-SUFFIX,clivia.fun
+  - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,aistudio-app.com
+  - DOMAIN-SUFFIX,dothantech.com
+  - DOMAIN-SUFFIX,congmiqq.com
+  - DOMAIN-SUFFIX,mifeng.plus
+  - DOMAIN-SUFFIX,paperang.com
+  - DOMAIN-SUFFIX,centbrowser.net
+  - DOMAIN-SUFFIX,anycubic.com
+  - DOMAIN-SUFFIX,vgogbuy.com
+  - DOMAIN-SUFFIX,onebuygz.com
   - DOMAIN-SUFFIX,yongyu.xyz
   - DOMAIN-SUFFIX,yooc.me
   - DOMAIN-SUFFIX,hwbim.com
-  - DOMAIN-SUFFIX,wlcdn88.com
-  - DOMAIN-SUFFIX,sapphiretech.com
   - DOMAIN-SUFFIX,03241119.xyz
   - DOMAIN-SUFFIX,wenyi188.com
   - DOMAIN-SUFFIX,icvcs.com
