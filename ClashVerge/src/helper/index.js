@@ -52,7 +52,7 @@ module.exports = {
   /**
    * 创建规则集对应的规则文件名称
    * @param {string} temp
-   * @return {Promise<{name: string, rules: string[]}>}
+   * @return {Promise<{[key: string]: string[]}>}
    */
   async createRuleProvidersMap(temp) {
     const rulesetList = createRulesetList(temp);
@@ -77,6 +77,10 @@ module.exports = {
           })
           .catch((error) => {
             console.log(error);
+            return {
+              name,
+              rules: [],
+            };
           })
       )
     );
@@ -92,7 +96,7 @@ module.exports = {
   },
   /**
    * 创建规则集对应的规则文件
-   * @param {{name: string, rules: string[]}} ruleProvidersMap
+   * @param {{[k: string]: string[]}} ruleProvidersMap
    * @param {string} configType - 配置文件存放位置
    * @return {Promise<void>}
    */
