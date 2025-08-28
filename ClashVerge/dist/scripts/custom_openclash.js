@@ -158,6 +158,20 @@ const ruleProviders = {
 };
 
 const rules = [
+    // 其他规则 - 优先级最高
+    ...[
+  "GEOSITE,cn,🎯 全球直连,DIRECT",
+  "GEOSITE,google-cn,🎯 全球直连,DIRECT",
+  "GEOSITE,category-games@cn,🎯 全球直连,DIRECT",
+  "GEOSITE,category-public-tracker,🎯 全球直连,DIRECT",
+  "GEOSITE,openai,💬 ChatGPT,PROXY",
+  "GEOSITE,anthropic,🤖 AI服务,PROXY",
+  "GEOSITE,google-gemini,🤖 AI服务,PROXY",
+  "GEOSITE,github,🚀 GitHub,PROXY",
+  "GEOSITE,gfw,🚀 节点选择,PROXY",
+  "GEOSITE,steam,🎮 Steam,PROXY",
+  "GEOSITE,category-games,🎮 游戏平台,PROXY"
+],
     ...[
   "RULE-SET,Ipv6,🔗 Ipv6",
   "RULE-SET,LocalAreaNetwork,🎯 全球直连",
@@ -178,20 +192,6 @@ const rules = [
   "RULE-SET,Spotify,🎻 Spotify",
   "RULE-SET,Bahamut,📺 巴哈姆特",
   "RULE-SET,Shopee,🛒 国外电商"
-],
-    // 其他规则
-    ...[
-  "GEOSITE,cn,🎯 全球直连,DIRECT",
-  "GEOSITE,google-cn,🎯 全球直连,DIRECT",
-  "GEOSITE,category-games@cn,🎯 全球直连,DIRECT",
-  "GEOSITE,category-public-tracker,🎯 全球直连,DIRECT",
-  "GEOSITE,openai,💬 ChatGPT,PROXY",
-  "GEOSITE,anthropic,🤖 AI服务,PROXY",
-  "GEOSITE,google-gemini,🤖 AI服务,PROXY",
-  "GEOSITE,github,🚀 GitHub,PROXY",
-  "GEOSITE,gfw,🚀 节点选择,PROXY",
-  "GEOSITE,steam,🎮 Steam,PROXY",
-  "GEOSITE,category-games,🎮 游戏平台,PROXY"
 ],
     "GEOIP,LAN,🎯 全球直连,no-resolve",
     "GEOIP,CN,🎯 全球直连,no-resolve",
@@ -462,6 +462,7 @@ function main(config) {
             "Ⓜ️ 微软云盘",
             "Ⓜ️ 微软服务",
             "🍎 苹果服务",
+            "🎮 Steam",
             "🎮 游戏平台",
             "🐟 漏网之鱼",
             ...[

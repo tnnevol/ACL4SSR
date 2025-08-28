@@ -46,9 +46,9 @@ const excludeRegex = new RegExp(excludeRegexStr, "u");
 const ruleProviders = ${JSON.stringify(ruleProviders, null, 2)};
 
 const rules = [
-    ...${JSON.stringify(rules, null, 2)},
-    // 其他规则
+    // 其他规则 - 优先级最高
     ...${JSON.stringify(extendsRules, null, 2)},
+    ...${JSON.stringify(rules, null, 2)},
     "GEOIP,LAN,🎯 全球直连,no-resolve",
     "GEOIP,CN,🎯 全球直连,no-resolve",
     "MATCH,🐟 漏网之鱼"
@@ -251,6 +251,7 @@ function main(config) {
             "Ⓜ️ 微软云盘",
             "Ⓜ️ 微软服务",
             "🍎 苹果服务",
+            "🎮 Steam",
             "🎮 游戏平台",
             "🐟 漏网之鱼",
             ...${JSON.stringify(selecteExtensionGroup, null, 2)}
