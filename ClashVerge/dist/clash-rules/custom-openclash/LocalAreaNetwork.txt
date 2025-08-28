@@ -236,6 +236,15 @@ payload:
   - DOMAIN-SUFFIX,wlcdn88.com
   - DOMAIN-SUFFIX,sapphiretech.com
   - DOMAIN-SUFFIX,idsduf.com
+  - DOMAIN-SUFFIX,thinkerride.com
+  - DOMAIN-SUFFIX,tailgdd.com
+  - DOMAIN-SUFFIX,115cdn.de
+  - DOMAIN-SUFFIX,micu.hk
+  - DOMAIN-SUFFIX,chenyuxia.com
+  - DOMAIN-SUFFIX,ugdocker.link
+  - DOMAIN-SUFFIX,nxog.top
+  - DOMAIN-SUFFIX,z6e.com
+  - DOMAIN-SUFFIX,frp-ski.com
   - DOMAIN-SUFFIX,clivia.fun
   - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,aistudio-app.com
