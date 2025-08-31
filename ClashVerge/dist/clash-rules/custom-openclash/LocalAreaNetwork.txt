@@ -236,6 +236,28 @@ payload:
   - DOMAIN-SUFFIX,wlcdn88.com
   - DOMAIN-SUFFIX,sapphiretech.com
   - DOMAIN-SUFFIX,idsduf.com
+  - DOMAIN-SUFFIX,googoc.com
+  - DOMAIN-SUFFIX,tcp.pub
+  - DOMAIN-SUFFIX,ip159.com
+  - DOMAIN-SUFFIX,gjtool.com
+  - DOMAIN-SUFFIX,gseen.com
+  - DOMAIN-SUFFIX,netzz.net
+  - DOMAIN-SUFFIX,douqq.com
+  - DOMAIN-SUFFIX,52muban.com
+  - DOMAIN-SUFFIX,998tool.com
+  - DOMAIN-SUFFIX,neihang.net
+  - DOMAIN-SUFFIX,fzwqq.com
+  - DOMAIN-SUFFIX,xdtool.com
+  - DOMAIN-SUFFIX,naixi.com
+  - DOMAIN-SUFFIX,xbgjw.com
+  - DOMAIN-SUFFIX,chaxunjiao.com
+  - DOMAIN-SUFFIX,tool56.com
+  - DOMAIN-SUFFIX,ipshu.com
+  - DOMAIN-SUFFIX,fofuai.com
+  - DOMAIN-SUFFIX,qinglue.com
+  - DOMAIN-SUFFIX,mykuaidi.com
+  - DOMAIN-SUFFIX,900cha.com
+  - DOMAIN-SUFFIX,51zmt.top
   - DOMAIN-SUFFIX,thinkerride.com
   - DOMAIN-SUFFIX,tailgdd.com
   - DOMAIN-SUFFIX,115cdn.de
