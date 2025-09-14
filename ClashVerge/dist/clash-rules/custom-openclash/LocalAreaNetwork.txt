@@ -224,6 +224,10 @@ payload:
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-KEYWORD,m-team
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,jxpp.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
@@ -245,7 +249,19 @@ payload:
   - DOMAIN-SUFFIX,51zmt.top
   - DOMAIN-SUFFIX,chenyuxia.com
   - DOMAIN-SUFFIX,nxog.top
+  - DOMAIN-SUFFIX,zctnet.top
+  - DOMAIN-SUFFIX,tclai.top
+  - DOMAIN-SUFFIX,feihengip.com
+  - DOMAIN-SUFFIX,x86pi.com
+  - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,halvie.com
+  - DOMAIN-SUFFIX,chujingapp.com
+  - DOMAIN-SUFFIX,xdqtech.com
+  - DOMAIN-SUFFIX,chaz.fun
+  - DOMAIN-SUFFIX,codeloop.top
+  - DOMAIN-SUFFIX,warmheart.top
+  - DOMAIN-SUFFIX,mc-user.com
+  - DOMAIN-SUFFIX,gaojiua.com
   - DOMAIN-SUFFIX,tcp.pub
   - DOMAIN-SUFFIX,douqq.com
   - DOMAIN-SUFFIX,lyihub.com
@@ -275,11 +291,6 @@ payload:
   - DOMAIN-SUFFIX,115cdn.de
   - DOMAIN-SUFFIX,micu.hk
   - DOMAIN-SUFFIX,ugdocker.link
-  - DOMAIN-SUFFIX,chujingapp.com
-  - DOMAIN-SUFFIX,xdqtech.com
-  - DOMAIN-SUFFIX,chaz.fun
-  - DOMAIN-SUFFIX,codeloop.top
-  - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,xbgjw.com
   - DOMAIN-SUFFIX,z6e.com
   - DOMAIN-SUFFIX,frp-ski.com
