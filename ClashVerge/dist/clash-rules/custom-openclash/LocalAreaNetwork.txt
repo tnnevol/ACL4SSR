@@ -255,6 +255,23 @@ payload:
   - DOMAIN-SUFFIX,x86pi.com
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,halvie.com
+  - DOMAIN-SUFFIX,geektool.top
+  - DOMAIN-SUFFIX,tcp5.com
+  - DOMAIN-SUFFIX,qiankunshopping.com
+  - DOMAIN-SUFFIX,fjpit.com
+  - DOMAIN-SUFFIX,ulife.group
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,bochk.com
+  - DOMAIN-SUFFIX,leelen.com
+  - DOMAIN-SUFFIX,yzcsoft.com
+  - DOMAIN-SUFFIX,imacos.top
+  - DOMAIN-SUFFIX,iotrix.net
+  - DOMAIN-SUFFIX,redenmc.com
+  - DOMAIN-SUFFIX,aloys233.top
+  - DOMAIN-SUFFIX,wjx.top
+  - DOMAIN-SUFFIX,shuqiandiqiu.com
+  - DOMAIN-SUFFIX,oceando.cloud
+  - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,xdqtech.com
   - DOMAIN-SUFFIX,chaz.fun
