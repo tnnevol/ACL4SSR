@@ -228,6 +228,8 @@ payload:
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,manfuz.co
+  - DOMAIN-SUFFIX,hsbc.com.hk
+  - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,jxpp.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
@@ -256,22 +258,27 @@ payload:
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,halvie.com
   - DOMAIN-SUFFIX,geektool.top
+  - DOMAIN-SUFFIX,aloys233.top
+  - DOMAIN-SUFFIX,wjx.top
+  - DOMAIN-SUFFIX,imacos.top
+  - DOMAIN-SUFFIX,ssjj2.com
+  - DOMAIN-SUFFIX,einfo-tech.com
+  - DOMAIN-SUFFIX,afeica.com
+  - DOMAIN-SUFFIX,ptl.gs
+  - DOMAIN-SUFFIX,ptlgs.org
+  - DOMAIN-SUFFIX,nhk.or.jp
+  - DOMAIN-SUFFIX,shuqiandiqiu.com
+  - DOMAIN-SUFFIX,oceando.cloud
+  - DOMAIN-SUFFIX,canghaiip.com
+  - DOMAIN-SUFFIX,hnxzctec.com
   - DOMAIN-SUFFIX,tcp5.com
   - DOMAIN-SUFFIX,qiankunshopping.com
   - DOMAIN-SUFFIX,fjpit.com
   - DOMAIN-SUFFIX,ulife.group
-  - DOMAIN-SUFFIX,hsbc.com.hk
-  - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,leelen.com
   - DOMAIN-SUFFIX,yzcsoft.com
-  - DOMAIN-SUFFIX,imacos.top
   - DOMAIN-SUFFIX,iotrix.net
   - DOMAIN-SUFFIX,redenmc.com
-  - DOMAIN-SUFFIX,aloys233.top
-  - DOMAIN-SUFFIX,wjx.top
-  - DOMAIN-SUFFIX,shuqiandiqiu.com
-  - DOMAIN-SUFFIX,oceando.cloud
-  - DOMAIN-SUFFIX,canghaiip.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,xdqtech.com
   - DOMAIN-SUFFIX,chaz.fun
