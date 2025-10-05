@@ -261,6 +261,16 @@ payload:
   - DOMAIN-SUFFIX,aloys233.top
   - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,imacos.top
+  - DOMAIN-SUFFIX,xzsckj.com
+  - DOMAIN-SUFFIX,modelscope.net
+  - DOMAIN-SUFFIX,julebu.co
+  - DOMAIN-SUFFIX,zhixingyunke.com
+  - DOMAIN-SUFFIX,qianxuecloud.com
+  - DOMAIN-SUFFIX,qianxueyunke.com
+  - DOMAIN-SUFFIX,55555.ink
+  - DOMAIN-SUFFIX,gmoj.net
+  - DOMAIN-SUFFIX,stkfanli.com
+  - DOMAIN-SUFFIX,cnb.space
   - DOMAIN-SUFFIX,ssjj2.com
   - DOMAIN-SUFFIX,einfo-tech.com
   - DOMAIN-SUFFIX,afeica.com
