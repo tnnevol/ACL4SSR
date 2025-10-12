@@ -187,6 +187,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
   - IP-CIDR,5.5.5.5/32,no-resolve
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -261,6 +262,15 @@ payload:
   - DOMAIN-SUFFIX,aloys233.top
   - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,imacos.top
+  - DOMAIN-SUFFIX,ptl.gs
+  - DOMAIN-SUFFIX,ptlgs.org
+  - DOMAIN-SUFFIX,nhk.or.jp
+  - DOMAIN-SUFFIX,ourschool.cc
+  - DOMAIN-SUFFIX,diyiedu.com
+  - DOMAIN-SUFFIX,fengsutb.com
+  - DOMAIN-SUFFIX,6v520.net
+  - DOMAIN-SUFFIX,boyuemobile.com
+  - DOMAIN-SUFFIX,ydayc.com
   - DOMAIN-SUFFIX,xzsckj.com
   - DOMAIN-SUFFIX,modelscope.net
   - DOMAIN-SUFFIX,julebu.co
@@ -274,9 +284,6 @@ payload:
   - DOMAIN-SUFFIX,ssjj2.com
   - DOMAIN-SUFFIX,einfo-tech.com
   - DOMAIN-SUFFIX,afeica.com
-  - DOMAIN-SUFFIX,ptl.gs
-  - DOMAIN-SUFFIX,ptlgs.org
-  - DOMAIN-SUFFIX,nhk.or.jp
   - DOMAIN-SUFFIX,shuqiandiqiu.com
   - DOMAIN-SUFFIX,oceando.cloud
   - DOMAIN-SUFFIX,canghaiip.com
