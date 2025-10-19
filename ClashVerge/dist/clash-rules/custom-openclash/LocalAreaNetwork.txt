@@ -265,6 +265,20 @@ payload:
   - DOMAIN-SUFFIX,ptl.gs
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,nhk.or.jp
+  - DOMAIN-SUFFIX,gangtise.com
+  - DOMAIN-SUFFIX,tozi-cn.top
+  - DOMAIN-SUFFIX,saduck.top
+  - DOMAIN-SUFFIX,shineacc.com
+  - DOMAIN-SUFFIX,fzvcolco.com
+  - DOMAIN-SUFFIX,haoxueche.com
+  - DOMAIN-SUFFIX,liunn.com
+  - DOMAIN-SUFFIX,zjxhedu.com
+  - DOMAIN-SUFFIX,xxrsm.com
+  - DOMAIN-SUFFIX,chujingapp.com
+  - DOMAIN-SUFFIX,xdqtech.com
+  - DOMAIN-SUFFIX,chaz.fun
+  - DOMAIN-SUFFIX,codeloop.top
+  - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,ourschool.cc
   - DOMAIN-SUFFIX,diyiedu.com
   - DOMAIN-SUFFIX,fengsutb.com
@@ -296,11 +310,6 @@ payload:
   - DOMAIN-SUFFIX,yzcsoft.com
   - DOMAIN-SUFFIX,iotrix.net
   - DOMAIN-SUFFIX,redenmc.com
-  - DOMAIN-SUFFIX,chujingapp.com
-  - DOMAIN-SUFFIX,xdqtech.com
-  - DOMAIN-SUFFIX,chaz.fun
-  - DOMAIN-SUFFIX,codeloop.top
-  - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,mc-user.com
   - DOMAIN-SUFFIX,gaojiua.com
   - DOMAIN-SUFFIX,tcp.pub
