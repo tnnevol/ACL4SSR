@@ -231,54 +231,68 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,bochk.com
-  - DOMAIN-SUFFIX,jxpp.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
-  - DOMAIN-SUFFIX,goka.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,ok321.top
-  - DOMAIN-SUFFIX,bsbsb.top
-  - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,wlcdn88.com
   - DOMAIN-SUFFIX,sapphiretech.com
   - DOMAIN-SUFFIX,idsduf.com
   - DOMAIN-SUFFIX,webs.vc
   - DOMAIN-SUFFIX,657192.com
+  - DOMAIN-SUFFIX,chenyuxia.com
+  - DOMAIN-SUFFIX,zctnet.top
+  - DOMAIN-SUFFIX,x86pi.com
+  - DOMAIN-SUFFIX,ptl.gs
+  - DOMAIN-SUFFIX,ptlgs.org
+  - DOMAIN-SUFFIX,nhk.or.jp
+  - DOMAIN-SUFFIX,tozi-cn.top
+  - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,goalmapapp.com
+  - DOMAIN-SUFFIX,everdrawing.com
+  - DOMAIN-SUFFIX,hwzuku.com
+  - DOMAIN-SUFFIX,hwjianmo.com
+  - DOMAIN-SUFFIX,cdn.ist
+  - DOMAIN-SUFFIX,ifengmap.com
+  - DOMAIN-SUFFIX,4399zmxy.com
+  - DOMAIN-SUFFIX,zhi10.com
+  - DOMAIN-SUFFIX,hzlawyer.net
+  - DOMAIN-SUFFIX,xinghaiwaimai.com
+  - DOMAIN-SUFFIX,86656.net
+  - DOMAIN-SUFFIX,ft07.com
+  - DOMAIN-SUFFIX,gootho.com
+  - DOMAIN-SUFFIX,chujingapp.com
+  - DOMAIN-SUFFIX,xdqtech.com
+  - DOMAIN-SUFFIX,chaz.fun
+  - DOMAIN-SUFFIX,codeloop.top
+  - DOMAIN-SUFFIX,warmheart.top
+  - DOMAIN-SUFFIX,jxpp.com
+  - DOMAIN-SUFFIX,goka.top
+  - DOMAIN-SUFFIX,bsbsb.top
+  - DOMAIN-SUFFIX,istoreos.com
   - DOMAIN-SUFFIX,netzz.net
   - DOMAIN-SUFFIX,xdtool.com
   - DOMAIN-SUFFIX,ipshu.com
   - DOMAIN-SUFFIX,900cha.com
   - DOMAIN-SUFFIX,51zmt.top
-  - DOMAIN-SUFFIX,chenyuxia.com
   - DOMAIN-SUFFIX,nxog.top
-  - DOMAIN-SUFFIX,zctnet.top
   - DOMAIN-SUFFIX,tclai.top
   - DOMAIN-SUFFIX,feihengip.com
-  - DOMAIN-SUFFIX,x86pi.com
   - DOMAIN-SUFFIX,privateapi.xyz
   - DOMAIN-SUFFIX,halvie.com
   - DOMAIN-SUFFIX,geektool.top
   - DOMAIN-SUFFIX,aloys233.top
   - DOMAIN-SUFFIX,wjx.top
   - DOMAIN-SUFFIX,imacos.top
-  - DOMAIN-SUFFIX,ptl.gs
-  - DOMAIN-SUFFIX,ptlgs.org
-  - DOMAIN-SUFFIX,nhk.or.jp
-  - DOMAIN-SUFFIX,gangtise.com
-  - DOMAIN-SUFFIX,tozi-cn.top
   - DOMAIN-SUFFIX,saduck.top
+  - DOMAIN-SUFFIX,gangtise.com
   - DOMAIN-SUFFIX,shineacc.com
   - DOMAIN-SUFFIX,fzvcolco.com
   - DOMAIN-SUFFIX,haoxueche.com
   - DOMAIN-SUFFIX,liunn.com
   - DOMAIN-SUFFIX,zjxhedu.com
   - DOMAIN-SUFFIX,xxrsm.com
-  - DOMAIN-SUFFIX,chujingapp.com
-  - DOMAIN-SUFFIX,xdqtech.com
-  - DOMAIN-SUFFIX,chaz.fun
-  - DOMAIN-SUFFIX,codeloop.top
-  - DOMAIN-SUFFIX,warmheart.top
   - DOMAIN-SUFFIX,ourschool.cc
   - DOMAIN-SUFFIX,diyiedu.com
   - DOMAIN-SUFFIX,fengsutb.com
@@ -345,7 +359,6 @@ payload:
   - DOMAIN-SUFFIX,z6e.com
   - DOMAIN-SUFFIX,frp-ski.com
   - DOMAIN-SUFFIX,clivia.fun
-  - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,aistudio-app.com
   - DOMAIN-SUFFIX,dothantech.com
   - DOMAIN-SUFFIX,congmiqq.com
