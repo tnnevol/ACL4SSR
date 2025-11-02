@@ -249,6 +249,16 @@ payload:
   - DOMAIN-SUFFIX,nhk.or.jp
   - DOMAIN-SUFFIX,tozi-cn.top
   - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,cheshire.top
+  - DOMAIN-SUFFIX,ft07.com
+  - DOMAIN-SUFFIX,gootho.com
+  - DOMAIN-SUFFIX,royqh.net
+  - DOMAIN-SUFFIX,biandangroup.com
+  - DOMAIN-SUFFIX,shyxhy.com
+  - DOMAIN-SUFFIX,shunjing.xin
+  - DOMAIN-SUFFIX,ghoxz.com
+  - DOMAIN-SUFFIX,pixcheese.com
+  - DOMAIN-SUFFIX,hijin.vip
   - DOMAIN-SUFFIX,goalmapapp.com
   - DOMAIN-SUFFIX,everdrawing.com
   - DOMAIN-SUFFIX,hwzuku.com
@@ -260,8 +270,6 @@ payload:
   - DOMAIN-SUFFIX,hzlawyer.net
   - DOMAIN-SUFFIX,xinghaiwaimai.com
   - DOMAIN-SUFFIX,86656.net
-  - DOMAIN-SUFFIX,ft07.com
-  - DOMAIN-SUFFIX,gootho.com
   - DOMAIN-SUFFIX,chujingapp.com
   - DOMAIN-SUFFIX,xdqtech.com
   - DOMAIN-SUFFIX,chaz.fun
