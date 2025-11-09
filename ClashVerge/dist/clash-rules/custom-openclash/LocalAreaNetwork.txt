@@ -251,6 +251,14 @@ payload:
   - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,ft07.com
+  - DOMAIN-SUFFIX,cheriexsky.love
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,kaijiejinrong.com
+  - DOMAIN-SUFFIX,xiberia.net
+  - DOMAIN-SUFFIX,jiqw.com
+  - DOMAIN-SUFFIX,dskj-ops.com
+  - DOMAIN-SUFFIX,jfjt.cc
+  - DOMAIN-SUFFIX,atticus.vip
   - DOMAIN-SUFFIX,gootho.com
   - DOMAIN-SUFFIX,royqh.net
   - DOMAIN-SUFFIX,biandangroup.com
