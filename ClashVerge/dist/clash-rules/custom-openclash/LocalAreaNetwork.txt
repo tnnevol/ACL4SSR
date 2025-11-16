@@ -231,6 +231,7 @@ payload:
   - DOMAIN-SUFFIX,manfuz.co
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,bochk.com
+  - DOMAIN-SUFFIX,sct.ftqq.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
@@ -251,8 +252,19 @@ payload:
   - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,ft07.com
+  - DOMAIN-SUFFIX,ztytech.com
+  - DOMAIN-SUFFIX,day.app
+  - DOMAIN-SUFFIX,yixc.com
+  - DOMAIN-SUFFIX,biaoda.me
+  - DOMAIN-SUFFIX,nicezhuanye.com
+  - DOMAIN-SUFFIX,chinatle.com
+  - DOMAIN-SUFFIX,opentrust.net
+  - DOMAIN-SUFFIX,aichangbaishan.com
+  - DOMAIN-SUFFIX,xxir.com
+  - DOMAIN-SUFFIX,pwithe.com
+  - DOMAIN-SUFFIX,coffee-iot.com
+  - DOMAIN-SUFFIX,3dwhere.com
   - DOMAIN-SUFFIX,cheriexsky.love
-  - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,kaijiejinrong.com
   - DOMAIN-SUFFIX,xiberia.net
   - DOMAIN-SUFFIX,jiqw.com
