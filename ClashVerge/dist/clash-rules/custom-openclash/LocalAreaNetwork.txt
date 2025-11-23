@@ -252,8 +252,19 @@ payload:
   - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,ft07.com
-  - DOMAIN-SUFFIX,ztytech.com
+  - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-SUFFIX,day.app
+  - DOMAIN-SUFFIX,twinkstar.com
+  - DOMAIN-SUFFIX,laogongju.com
+  - DOMAIN-SUFFIX,itptg.com
+  - DOMAIN-SUFFIX,xzzhtc.com
+  - DOMAIN-SUFFIX,antping.com
+  - DOMAIN-SUFFIX,hdbz.net
+  - DOMAIN-SUFFIX,fuziche.com
+  - DOMAIN-SUFFIX,ham.xin
+  - DOMAIN-SUFFIX,tulipsport.com
+  - DOMAIN-SUFFIX,3d-apollo.com
+  - DOMAIN-SUFFIX,ztytech.com
   - DOMAIN-SUFFIX,yixc.com
   - DOMAIN-SUFFIX,biaoda.me
   - DOMAIN-SUFFIX,nicezhuanye.com
