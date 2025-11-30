@@ -195,7 +195,6 @@ payload:
   - DOMAIN-SUFFIX,rewards.bing.com
   - DOMAIN-SUFFIX,flingtrainer.com
   - DOMAIN-SUFFIX,ddsrem.com
-  - DOMAIN-SUFFIX,ipinfo.io
   - DOMAIN-SUFFIX,ggbond.org
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,wwwh.eu.org
@@ -250,10 +249,15 @@ payload:
   - DOMAIN-SUFFIX,nhk.or.jp
   - DOMAIN-SUFFIX,tozi-cn.top
   - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,topwd.top
+  - DOMAIN-SUFFIX,qmeng.top
   - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-SUFFIX,day.app
+  - DOMAIN-SUFFIX,zsytit.com
+  - DOMAIN-SUFFIX,jh96095.com
+  - DOMAIN-SUFFIX,hzqsn.com
   - DOMAIN-SUFFIX,twinkstar.com
   - DOMAIN-SUFFIX,laogongju.com
   - DOMAIN-SUFFIX,itptg.com
