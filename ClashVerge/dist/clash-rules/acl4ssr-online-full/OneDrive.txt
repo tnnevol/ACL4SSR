@@ -15,3 +15,4 @@ payload:
   - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-SUFFIX,microsoftpersonalcontent.com

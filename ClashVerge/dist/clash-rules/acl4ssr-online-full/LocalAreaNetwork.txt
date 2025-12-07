@@ -2,6 +2,7 @@ payload:
   - DOMAIN-SUFFIX,acl4.ssr
   - DOMAIN-SUFFIX,ip6-localhost
   - DOMAIN-SUFFIX,ip6-loopback
+  - DOMAIN-SUFFIX,internal
   - DOMAIN-SUFFIX,lan
   - DOMAIN-SUFFIX,local
   - DOMAIN-SUFFIX,localhost
@@ -9,6 +10,7 @@ payload:
   - IP-CIDR,10.0.0.0/8,no-resolve
   - IP-CIDR,100.64.0.0/10,no-resolve
   - IP-CIDR,127.0.0.0/8,no-resolve
+  - IP-CIDR,169.254.0.0/16,no-resolve
   - IP-CIDR,172.16.0.0/12,no-resolve
   - IP-CIDR,192.168.0.0/16,no-resolve
   - IP-CIDR,198.18.0.0/16,no-resolve
@@ -7623,6 +7625,7 @@ payload:
   - DOMAIN-SUFFIX,aliapp.org
   - DOMAIN-SUFFIX,alibaba.com
   - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
   - DOMAIN-SUFFIX,alibabausercontent.com
   - DOMAIN-SUFFIX,alicdn.com
   - DOMAIN-SUFFIX,alicloudccp.com
@@ -7641,6 +7644,7 @@ payload:
   - DOMAIN-SUFFIX,autonavi.com
   - DOMAIN-SUFFIX,dingtalk.com
   - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,elemecdn.com
   - DOMAIN-SUFFIX,hichina.com
   - DOMAIN-SUFFIX,mmstat.com
   - DOMAIN-SUFFIX,mxhichina.com
@@ -7648,6 +7652,7 @@ payload:
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,taobaocdn.com
   - DOMAIN-SUFFIX,tbcache.com
+  - DOMAIN-SUFFIX,tbcdn.cn
   - DOMAIN-SUFFIX,tbcdn.com
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,tmall.hk
@@ -7977,6 +7982,7 @@ payload:
   - DOMAIN-SUFFIX,air-matters.io
   - DOMAIN-SUFFIX,aixifan.com
   - DOMAIN-SUFFIX,algocasts.io
+  - DOMAIN-SUFFIX,asklink.com
   - DOMAIN-SUFFIX,babytree.com
   - DOMAIN-SUFFIX,babytreeimg.com
   - DOMAIN-SUFFIX,baicizhan.com
