@@ -251,17 +251,22 @@ payload:
   - DOMAIN-SUFFIX,girigirilove.com
   - DOMAIN-SUFFIX,topwd.top
   - DOMAIN-SUFFIX,qmeng.top
+  - DOMAIN-SUFFIX,xkkapk.com
   - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,ft07.com
   - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-SUFFIX,day.app
-  - DOMAIN-SUFFIX,xkkapk.com
+  - DOMAIN-SUFFIX,yyshub.top
+  - DOMAIN-SUFFIX,vv1865.com
+  - DOMAIN-SUFFIX,mifon.com
+  - DOMAIN-SUFFIX,thmnet.com
+  - DOMAIN-SUFFIX,zhituwujie.com
+  - DOMAIN-SUFFIX,wpurl.cc
   - DOMAIN-SUFFIX,ruijie.com
   - DOMAIN-SUFFIX,3gxk.net
   - DOMAIN-SUFFIX,uascent-iot.com
   - DOMAIN-SUFFIX,jingheiot.com
   - DOMAIN-SUFFIX,drvceo.com
-  - DOMAIN-SUFFIX,yyshub.top
   - DOMAIN-SUFFIX,zsytit.com
   - DOMAIN-SUFFIX,jh96095.com
   - DOMAIN-SUFFIX,hzqsn.com
