@@ -18,7 +18,6 @@ createConfigScript({
     "🎥 HBO",
     "🎥 PrimeVideo",
     "🎥 Emby",
-    "🎮 Steam",
     "🎻 Spotify",
     "🛒 国外电商",
   ],
