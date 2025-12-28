@@ -47,5 +47,3 @@ payload:
   - DOMAIN-SUFFIX,warnermediacdn.com
   - DOMAIN-SUFFIX,youboranqs01.com
   - PROCESS-NAME,com.hbo.hbonow
-  - DOMAIN-SUFFIX,max.com
-  - DOMAIN-SUFFIX,prd.api.discomax.com
