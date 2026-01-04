@@ -16,6 +16,7 @@ payload:
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,7pzzv.us
+  - DOMAIN-SUFFIX,hoyoverse.com
   - DOMAIN-SUFFIX,mypikpak.com
   - DOMAIN-SUFFIX,mypikpak.net
   - DOMAIN-SUFFIX,iil.im

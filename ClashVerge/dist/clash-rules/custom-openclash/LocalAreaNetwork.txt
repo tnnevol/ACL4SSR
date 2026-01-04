@@ -158,6 +158,7 @@ payload:
   - DOMAIN-SUFFIX,github.site
   - DOMAIN-SUFFIX,github.store
   - DOMAIN-SUFFIX,hub.gitmirror.com
+  - DOMAIN-SUFFIX,jsdelivr.com
   - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,kgithub.com
   - DOMAIN-SUFFIX,docker.1panel.live
@@ -234,6 +235,7 @@ payload:
   - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,vv1865.com
   - DOMAIN-SUFFIX,sct.ftqq.com
+  - DOMAIN-SUFFIX,p01.epsonconnect.com
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
@@ -261,6 +263,19 @@ payload:
   - DOMAIN-SUFFIX,day.app
   - DOMAIN-SUFFIX,yyshub.top
   - DOMAIN-SUFFIX,bunny.net
+  - DOMAIN-SUFFIX,xiaoxia.vip
+  - DOMAIN-SUFFIX,cocav.com
+  - DOMAIN-SUFFIX,d4ctech.com
+  - DOMAIN-SUFFIX,awstme.top
+  - DOMAIN-SUFFIX,easytomessage.com
+  - DOMAIN-SUFFIX,shanghai-parking.com
+  - DOMAIN-SUFFIX,aidien.fun
+  - DOMAIN-SUFFIX,svyun.com
+  - DOMAIN-SUFFIX,gegeselect.hk
+  - DOMAIN-SUFFIX,xiwang.com
+  - DOMAIN-SUFFIX,gaze.run
+  - DOMAIN-SUFFIX,a0d.top
+  - DOMAIN-SUFFIX,aqtwwx.net
   - DOMAIN-SUFFIX,acggit.com
   - DOMAIN-SUFFIX,aigodlike.com
   - DOMAIN-SUFFIX,timbrd.com
