@@ -142,6 +142,8 @@ payload:
   - IP-CIDR6,ff00::/8,no-resolve
   - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,kyarucloud.moe
+  - DOMAIN-SUFFIX,tailscale.com
+  - SRC-PORT,41641
   - DOMAIN-SUFFIX,gh-proxy.com
   - DOMAIN-SUFFIX,gh.con.sh
   - DOMAIN-SUFFIX,gh.ddlc.top
@@ -222,6 +224,7 @@ payload:
   - DOMAIN-SUFFIX,plushk2.younoyes.com
   - DOMAIN-SUFFIX,plushk3.younoyes.com
   - DOMAIN-SUFFIX,dushe1.app
+  - DOMAIN-SUFFIX,ottiptv.cc
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,adobe.com
@@ -272,6 +275,19 @@ payload:
   - DOMAIN-SUFFIX,timbrd.com
   - DOMAIN-SUFFIX,anyrouter.top
   - DOMAIN-SUFFIX,a0d.top
+  - DOMAIN-SUFFIX,wxdw.top
+  - DOMAIN-SUFFIX,rayws.top
+  - DOMAIN-SUFFIX,dnshe.com
+  - DOMAIN-SUFFIX,lg3000.top
+  - DOMAIN-SUFFIX,scratch5.com
+  - DOMAIN-SUFFIX,xingyaozhilian.com
+  - DOMAIN-SUFFIX,xiaobeiyangji.com
+  - DOMAIN-SUFFIX,xbcloudprint.com
+  - DOMAIN-SUFFIX,xuanyuancode.com
+  - DOMAIN-SUFFIX,mixly.org
+  - DOMAIN-SUFFIX,tnas.link
+  - DOMAIN-SUFFIX,terra-master.com
+  - DOMAIN-SUFFIX,tnas.online
   - DOMAIN-SUFFIX,passnat.com
   - DOMAIN-SUFFIX,zmis.me
   - DOMAIN-SUFFIX,gpetrip.com
