@@ -144,6 +144,7 @@ payload:
   - DOMAIN-SUFFIX,kyarucloud.moe
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
+  - DOMAIN-SUFFIX,argotunnel.com
   - DOMAIN-SUFFIX,gh-proxy.com
   - DOMAIN-SUFFIX,gh.con.sh
   - DOMAIN-SUFFIX,gh.ddlc.top
@@ -202,6 +203,7 @@ payload:
   - DOMAIN-SUFFIX,nn.ci
   - DOMAIN-SUFFIX,wwwh.eu.org
   - DOMAIN-SUFFIX,1996999.xyz
+  - DOMAIN-SUFFIX,server2.cn2gias.uk
   - IP-CIDR,218.78.7.16/32,no-resolve
   - IP-CIDR,98.126.27.164/32,no-resolve
   - DOMAIN-SUFFIX,sptv.ii00.cc
@@ -227,6 +229,10 @@ payload:
   - DOMAIN-SUFFIX,ottiptv.cc
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
+  - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-SUFFIX,m-team.cc
@@ -280,6 +286,38 @@ payload:
   - DOMAIN-SUFFIX,dnshe.com
   - DOMAIN-SUFFIX,lg3000.top
   - DOMAIN-SUFFIX,scratch5.com
+  - DOMAIN-SUFFIX,meiyitou.top
+  - DOMAIN-SUFFIX,misea.top
+  - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,zqin758.xyz
+  - DOMAIN-SUFFIX,tcp.mk
+  - DOMAIN-SUFFIX,lucky.gd
+  - DOMAIN-SUFFIX,zhu.today
+  - DOMAIN-SUFFIX,ilucky.net
+  - DOMAIN-SUFFIX,zcloud.world
+  - DOMAIN-SUFFIX,dadateach.com
+  - DOMAIN-SUFFIX,xuepaipai.com
+  - DOMAIN-SUFFIX,jiaoyanyun.com
+  - DOMAIN-SUFFIX,aibeike.com
+  - DOMAIN-SUFFIX,dahai96.com
+  - DOMAIN-SUFFIX,xesabc.com
+  - DOMAIN-SUFFIX,tixue.net
+  - DOMAIN-SUFFIX,machtalk.net
+  - DOMAIN-SUFFIX,yicaiykt.com
+  - DOMAIN-SUFFIX,bingshandashu.com
+  - DOMAIN-SUFFIX,wologic.net
+  - DOMAIN-SUFFIX,hiwms.com
+  - DOMAIN-SUFFIX,nodcloud.com
+  - DOMAIN-SUFFIX,bjtzeduyun.com
+  - DOMAIN-SUFFIX,enyugame.net
+  - DOMAIN-SUFFIX,kancaibao.com
+  - DOMAIN-SUFFIX,qweatherapi.com
+  - DOMAIN-SUFFIX,functorz.com
+  - DOMAIN-SUFFIX,banban.work
+  - DOMAIN-SUFFIX,us.ci
+  - DOMAIN-SUFFIX,cc.cd
+  - DOMAIN-SUFFIX,meoof-pet.com
+  - DOMAIN-SUFFIX,cyouzai.com
   - DOMAIN-SUFFIX,xingyaozhilian.com
   - DOMAIN-SUFFIX,xiaobeiyangji.com
   - DOMAIN-SUFFIX,xbcloudprint.com
