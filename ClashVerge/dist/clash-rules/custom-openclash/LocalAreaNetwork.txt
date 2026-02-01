@@ -289,7 +289,22 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,alonginwind.top
+  - DOMAIN-SUFFIX,alonginwind.eu.org
+  - DOMAIN-SUFFIX,shuangqingtech.com
+  - DOMAIN-SUFFIX,nanhuabx.com
+  - DOMAIN-SUFFIX,hezuvip.com
+  - DOMAIN-SUFFIX,ponyemu.com
+  - DOMAIN-SUFFIX,xiqueer.com
+  - DOMAIN-SUFFIX,jieyoutsg.com
+  - DOMAIN-SUFFIX,medtechshare.com
+  - DOMAIN-SUFFIX,dayilive.com
+  - DOMAIN-SUFFIX,natchecker.com
+  - DOMAIN-SUFFIX,mchuiji.com
+  - DOMAIN-SUFFIX,mcxyzt.cc
+  - DOMAIN-SUFFIX,harbourmooc.com
   - DOMAIN-SUFFIX,zqin758.xyz
+  - DOMAIN-SUFFIX,nanshe-tech.com
   - DOMAIN-SUFFIX,tcp.mk
   - DOMAIN-SUFFIX,lucky.gd
   - DOMAIN-SUFFIX,zhu.today
