@@ -145,6 +145,9 @@ payload:
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
   - DOMAIN-SUFFIX,argotunnel.com
+  - IP-CIDR,198.41.192.0/24,no-resolve
+  - IP-CIDR,198.41.200.0/24,no-resolve
+  - DST-PORT,7844
   - DOMAIN-SUFFIX,gh-proxy.com
   - DOMAIN-SUFFIX,gh.con.sh
   - DOMAIN-SUFFIX,gh.ddlc.top
@@ -289,6 +292,20 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,xingaochengtai.com
+  - DOMAIN-SUFFIX,qiaoqiaoyun.com
+  - DOMAIN-SUFFIX,latexlive.com
+  - DOMAIN-SUFFIX,gamepp.com
+  - DOMAIN-SUFFIX,giomeru.com
+  - DOMAIN-SUFFIX,asgardion.space
+  - DOMAIN-SUFFIX,hkchat.app
+  - DOMAIN-SUFFIX,aidream.website
+  - DOMAIN-SUFFIX,guaitao.cc
+  - DOMAIN-SUFFIX,365ting.com
+  - DOMAIN-SUFFIX,0044696.com
+  - DOMAIN-SUFFIX,pkghund.com
+  - DOMAIN-SUFFIX,htkgsx.com
+  - DOMAIN-SUFFIX,hangnakeji.com
   - DOMAIN-SUFFIX,alonginwind.top
   - DOMAIN-SUFFIX,alonginwind.eu.org
   - DOMAIN-SUFFIX,shuangqingtech.com
@@ -302,6 +319,8 @@ payload:
   - DOMAIN-SUFFIX,natchecker.com
   - DOMAIN-SUFFIX,mchuiji.com
   - DOMAIN-SUFFIX,mcxyzt.cc
+  - DOMAIN-SUFFIX,iosgujian.com
+  - DOMAIN-SUFFIX,aisnogames.com
   - DOMAIN-SUFFIX,harbourmooc.com
   - DOMAIN-SUFFIX,zqin758.xyz
   - DOMAIN-SUFFIX,nanshe-tech.com
