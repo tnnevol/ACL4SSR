@@ -292,6 +292,21 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,jzagile.com
+  - DOMAIN-SUFFIX,bochaai.com
+  - DOMAIN-SUFFIX,91shenfan.com
+  - DOMAIN-SUFFIX,onetools.top
+  - DOMAIN-SUFFIX,melecode.com
+  - DOMAIN-SUFFIX,fdfinvoice.com
+  - DOMAIN-SUFFIX,quanxinfu.com
+  - DOMAIN-SUFFIX,vanjee.net
+  - DOMAIN-SUFFIX,gwmapp-w.com
+  - DOMAIN-SUFFIX,xiaolikj.online
+  - DOMAIN-SUFFIX,beautifulcarrot.com
+  - DOMAIN-SUFFIX,nkxingxh.top
+  - DOMAIN-SUFFIX,fzshouji.com
+  - DOMAIN-SUFFIX,tdrgame.top
+  - DOMAIN-SUFFIX,piedaochuan.top
   - DOMAIN-SUFFIX,xingaochengtai.com
   - DOMAIN-SUFFIX,qiaoqiaoyun.com
   - DOMAIN-SUFFIX,latexlive.com
