@@ -292,6 +292,9 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,et0731.com
+  - DOMAIN-SUFFIX,gvgoo.com
+  - DOMAIN-SUFFIX,jjzyy.org
   - DOMAIN-SUFFIX,jzagile.com
   - DOMAIN-SUFFIX,bochaai.com
   - DOMAIN-SUFFIX,91shenfan.com
