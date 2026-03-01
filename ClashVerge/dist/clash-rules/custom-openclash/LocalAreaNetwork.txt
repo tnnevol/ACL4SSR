@@ -194,7 +194,6 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,akamaihd.net
-  - DOMAIN-SUFFIX,akamaized.net
   - IP-CIDR,5.5.5.5/32,no-resolve
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -292,6 +291,11 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,z-tek.com
+  - DOMAIN-SUFFIX,77shuku.org
+  - DOMAIN-SUFFIX,kaihong.com
+  - DOMAIN-SUFFIX,17van.com
+  - DOMAIN-SUFFIX,youzhiyouxing.com
   - DOMAIN-SUFFIX,et0731.com
   - DOMAIN-SUFFIX,gvgoo.com
   - DOMAIN-SUFFIX,jjzyy.org
