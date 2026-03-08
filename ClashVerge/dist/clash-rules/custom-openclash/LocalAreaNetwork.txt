@@ -5,8 +5,6 @@ payload:
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
   - DOMAIN,www.asusrouter.com
-  - DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-  - DOMAIN-SUFFIX,0.in-addr.arpa
   - DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
   - DOMAIN-SUFFIX,10.in-addr.arpa
   - DOMAIN-SUFFIX,100.100.in-addr.arpa
@@ -191,9 +189,8 @@ payload:
   - DOMAIN-SUFFIX,members.3322.org
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,kaspersky.com
-  - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,akamaized.net
   - IP-CIDR,5.5.5.5/32,no-resolve
   - DOMAIN-SUFFIX,powershellgallery.com
   - DOMAIN-SUFFIX,pool.ntp.org
@@ -235,6 +232,7 @@ payload:
   - DOMAIN-SUFFIX,sdk-log-upload-os.hoyoverse.com
   - DOMAIN-SUFFIX,zzz-log-upload-os.hoyoverse.com
   - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,sunrisecontent.akamaized.net
   - DOMAIN-SUFFIX,adobe.com
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-SUFFIX,m-team.cc
@@ -291,6 +289,12 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,tmallyc.com
+  - DOMAIN-SUFFIX,betahub.tech
+  - DOMAIN-SUFFIX,osbdf.com
+  - DOMAIN-SUFFIX,wwwwqq.com
+  - DOMAIN-SUFFIX,4xiaoshuo.org
+  - DOMAIN-SUFFIX,00333118.com
   - DOMAIN-SUFFIX,z-tek.com
   - DOMAIN-SUFFIX,77shuku.org
   - DOMAIN-SUFFIX,kaihong.com
