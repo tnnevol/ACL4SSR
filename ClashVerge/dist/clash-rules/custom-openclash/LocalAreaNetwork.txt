@@ -289,6 +289,19 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,misea.top
   - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,iot889.com
+  - DOMAIN-SUFFIX,packertec.com
+  - DOMAIN-SUFFIX,419g.com
+  - DOMAIN-SUFFIX,ijingyi.com
+  - DOMAIN-SUFFIX,excelbbx.net
+  - DOMAIN-SUFFIX,hutaoyun.top
+  - DOMAIN-SUFFIX,0734cn.top
+  - DOMAIN-SUFFIX,xfltd.org
+  - DOMAIN-SUFFIX,2mcnxs.cc
+  - DOMAIN-SUFFIX,zhouyiy.com
+  - DOMAIN-SUFFIX,mblyun.com
+  - DOMAIN-SUFFIX,hybiome.com
+  - DOMAIN-SUFFIX,zysou.com
   - DOMAIN-SUFFIX,tmallyc.com
   - DOMAIN-SUFFIX,betahub.tech
   - DOMAIN-SUFFIX,osbdf.com
