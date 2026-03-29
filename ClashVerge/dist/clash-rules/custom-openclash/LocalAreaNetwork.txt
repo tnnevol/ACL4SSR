@@ -305,10 +305,14 @@ payload:
   - DOMAIN-SUFFIX,alonginwind.eu.org
   - DOMAIN-SUFFIX,hezuvip.com
   - DOMAIN-SUFFIX,iosgujian.com
+  - DOMAIN-SUFFIX,anytocopy.com
   - DOMAIN-SUFFIX,openkylin.top
-  - DOMAIN-SUFFIX,chessease.net
   - DOMAIN-SUFFIX,wildfirechat.net
   - DOMAIN-SUFFIX,xgzb.top
+  - DOMAIN-SUFFIX,cmhk.com
+  - DOMAIN-SUFFIX,kaipanhong.com
+  - DOMAIN-SUFFIX,talk-cloud.net
+  - DOMAIN-SUFFIX,chessease.net
   - DOMAIN-SUFFIX,boxim.online
   - DOMAIN-SUFFIX,zhangleglobal.com
   - DOMAIN-SUFFIX,hongxingdl.love
