@@ -142,6 +142,7 @@ payload:
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
   - DOMAIN-SUFFIX,argotunnel.com
+  - DOMAIN-SUFFIX,cftunnel.com
   - IP-CIDR,198.41.192.0/24,no-resolve
   - IP-CIDR,198.41.200.0/24,no-resolve
   - DST-PORT,7844
@@ -309,6 +310,13 @@ payload:
   - DOMAIN-SUFFIX,openkylin.top
   - DOMAIN-SUFFIX,wildfirechat.net
   - DOMAIN-SUFFIX,xgzb.top
+  - DOMAIN-SUFFIX,daocloud.vip
+  - DOMAIN-SUFFIX,66990000.xyz
+  - DOMAIN-SUFFIX,emby.yun
+  - DOMAIN-SUFFIX,fuyinkeji.top
+  - DOMAIN-SUFFIX,qzyun.net
+  - DOMAIN-SUFFIX,xn--vhqr42drhf5k7b.com
+  - DOMAIN-SUFFIX,cangjie-lang.net
   - DOMAIN-SUFFIX,cmhk.com
   - DOMAIN-SUFFIX,kaipanhong.com
   - DOMAIN-SUFFIX,talk-cloud.net
