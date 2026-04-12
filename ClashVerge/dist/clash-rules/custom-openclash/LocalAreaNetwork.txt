@@ -114,7 +114,6 @@ payload:
   - DOMAIN-SUFFIX,router.ctc
   - DOMAIN-SUFFIX,routerlogin.com
   - DOMAIN-SUFFIX,tendawifi.com
-  - DOMAIN-SUFFIX,test.steampowered.com
   - DOMAIN-SUFFIX,tplinkwifi.net
   - DOMAIN-SUFFIX,tplogin.cn
   - DOMAIN-SUFFIX,ts.net
@@ -227,7 +226,13 @@ payload:
   - DOMAIN-SUFFIX,plushk2.younoyes.com
   - DOMAIN-SUFFIX,plushk3.younoyes.com
   - DOMAIN-SUFFIX,dushe1.app
+  - DOMAIN-SUFFIX,theluyuan.com
   - DOMAIN-SUFFIX,ottiptv.cc
+  - DOMAIN-SUFFIX,girigirilove.com
+  - DOMAIN-SUFFIX,8kc.top
+  - DOMAIN-SUFFIX,qmeng.top
+  - DOMAIN-SUFFIX,657192.com
+  - DOMAIN-SUFFIX,wlcdn88.com
   - IP-CIDR,108.174.48.100/32,no-resolve
   - DOMAIN-SUFFIX,game.maj-soul.com
   - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com
@@ -236,84 +241,63 @@ payload:
   - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
   - DOMAIN-SUFFIX,sunrisecontent.akamaized.net
   - DOMAIN-SUFFIX,adobe.com
+  - DOMAIN-SUFFIX,easytier.top
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,m-team.io
   - DOMAIN-SUFFIX,manfuz.co
+  - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,liveperson.net
   - DOMAIN-SUFFIX,we-stats.com
   - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,vv1865.com
+  - DOMAIN-SUFFIX,chenyuxia.com
   - DOMAIN-SUFFIX,sct.ftqq.com
+  - DOMAIN-SUFFIX,ft07.com
+  - DOMAIN-SUFFIX,cheshire.top
   - DOMAIN-SUFFIX,p01.epsonconnect.com
+  - DOMAIN-SUFFIX,sapphiretech.com
+  - DOMAIN-SUFFIX,dnshe.com
+  - DOMAIN-SUFFIX,xfltd.org
+  - DOMAIN-SUFFIX,00333118.com
+  - DOMAIN-SUFFIX,onetools.top
+  - DOMAIN-SUFFIX,alonginwind.to
+  - DOMAIN-SUFFIX,alonginwind.eu.org
+  - DOMAIN-SUFFIX,iosgujian.com
+  - DOMAIN-SUFFIX,fuyinkeji.top
+  - DOMAIN-SUFFIX,0734cn.top
+  - DOMAIN-SUFFIX,hutaoyun.top
+  - DOMAIN-SUFFIX,axuex.top
+  - DOMAIN-SUFFIX,meiyitou.top
+  - DOMAIN-SUFFIX,rayws.top
+  - DOMAIN-SUFFIX,a0d.top
+  - DOMAIN-SUFFIX,anyrouter.top
+  - DOMAIN-SUFFIX,cmbc.run
+  - DOMAIN-SUFFIX,kcbd.top
+  - DOMAIN-SUFFIX,bunny.net
+  - DOMAIN-SUFFIX,day.app
+  - DOMAIN-SUFFIX,xkkapk.com
+  - DOMAIN-SUFFIX,tozi-cn.top
+  - DOMAIN-SUFFIX,x86pi.com
+  - DOMAIN-SUFFIX,webs.vc
+  - DOMAIN-SUFFIX,idsduf.com
+  - DOMAIN-SUFFIX,ok321.top
+  - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
-  - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top
-  - DOMAIN-SUFFIX,ok321.top
-  - DOMAIN-SUFFIX,wlcdn88.com
-  - DOMAIN-SUFFIX,sapphiretech.com
-  - DOMAIN-SUFFIX,idsduf.com
-  - DOMAIN-SUFFIX,webs.vc
-  - DOMAIN-SUFFIX,657192.com
-  - DOMAIN-SUFFIX,chenyuxia.com
-  - DOMAIN-SUFFIX,zctnet.top
-  - DOMAIN-SUFFIX,x86pi.com
-  - DOMAIN-SUFFIX,ptl.gs
-  - DOMAIN-SUFFIX,ptlgs.org
-  - DOMAIN-SUFFIX,nhk.or.jp
-  - DOMAIN-SUFFIX,tozi-cn.top
-  - DOMAIN-SUFFIX,girigirilove.com
-  - DOMAIN-SUFFIX,topwd.top
-  - DOMAIN-SUFFIX,qmeng.top
-  - DOMAIN-SUFFIX,xkkapk.com
-  - DOMAIN-SUFFIX,cheshire.top
-  - DOMAIN-SUFFIX,ft07.com
-  - DOMAIN-SUFFIX,easytier.top
-  - DOMAIN-SUFFIX,day.app
-  - DOMAIN-SUFFIX,yyshub.top
-  - DOMAIN-SUFFIX,bunny.net
-  - DOMAIN-SUFFIX,8kc.top
-  - DOMAIN-SUFFIX,kcbd.top
-  - DOMAIN-SUFFIX,theluyuan.com
-  - DOMAIN-SUFFIX,cmbc.run
-  - DOMAIN-SUFFIX,awstme.top
-  - DOMAIN-SUFFIX,easytomessage.com
-  - DOMAIN-SUFFIX,timbrd.com
-  - DOMAIN-SUFFIX,anyrouter.top
-  - DOMAIN-SUFFIX,a0d.top
-  - DOMAIN-SUFFIX,wxdw.top
-  - DOMAIN-SUFFIX,rayws.top
-  - DOMAIN-SUFFIX,dnshe.com
-  - DOMAIN-SUFFIX,lg3000.top
-  - DOMAIN-SUFFIX,scratch5.com
-  - DOMAIN-SUFFIX,meiyitou.top
-  - DOMAIN-SUFFIX,misea.top
-  - DOMAIN-SUFFIX,axuex.top
-  - DOMAIN-SUFFIX,hutaoyun.top
-  - DOMAIN-SUFFIX,0734cn.top
-  - DOMAIN-SUFFIX,xfltd.org
-  - DOMAIN-SUFFIX,osbdf.com
-  - DOMAIN-SUFFIX,00333118.com
-  - DOMAIN-SUFFIX,jzagile.com
-  - DOMAIN-SUFFIX,bochaai.com
-  - DOMAIN-SUFFIX,91shenfan.com
-  - DOMAIN-SUFFIX,onetools.top
-  - DOMAIN-SUFFIX,gamepp.com
-  - DOMAIN-SUFFIX,asgardion.space
-  - DOMAIN-SUFFIX,alonginwind.to
-  - DOMAIN-SUFFIX,alonginwind.eu.org
-  - DOMAIN-SUFFIX,hezuvip.com
-  - DOMAIN-SUFFIX,iosgujian.com
-  - DOMAIN-SUFFIX,anytocopy.com
-  - DOMAIN-SUFFIX,openkylin.top
-  - DOMAIN-SUFFIX,wildfirechat.net
-  - DOMAIN-SUFFIX,xgzb.top
-  - DOMAIN-SUFFIX,daocloud.vip
+  - DOMAIN-SUFFIX,shanghongbei.com
+  - DOMAIN-SUFFIX,divoiotcloud.com
+  - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,meloong.com
+  - DOMAIN-SUFFIX,xn--mmz.cc
+  - DOMAIN-SUFFIX,bjssjsyy.com
+  - DOMAIN-SUFFIX,batchat.com
+  - DOMAIN-SUFFIX,tianlala.com
+  - DOMAIN-SUFFIX,97973399.com
   - DOMAIN-SUFFIX,66990000.xyz
   - DOMAIN-SUFFIX,emby.yun
-  - DOMAIN-SUFFIX,fuyinkeji.top
   - DOMAIN-SUFFIX,qzyun.net
   - DOMAIN-SUFFIX,xn--vhqr42drhf5k7b.com
   - DOMAIN-SUFFIX,cangjie-lang.net
@@ -425,6 +409,28 @@ payload:
   - DOMAIN-SUFFIX,tnas.link
   - DOMAIN-SUFFIX,terra-master.com
   - DOMAIN-SUFFIX,tnas.online
+  - DOMAIN-SUFFIX,zctnet.top
+  - DOMAIN-SUFFIX,topwd.top
+  - DOMAIN-SUFFIX,yyshub.top
+  - DOMAIN-SUFFIX,awstme.top
+  - DOMAIN-SUFFIX,easytomessage.com
+  - DOMAIN-SUFFIX,timbrd.com
+  - DOMAIN-SUFFIX,wxdw.top
+  - DOMAIN-SUFFIX,lg3000.top
+  - DOMAIN-SUFFIX,scratch5.com
+  - DOMAIN-SUFFIX,osbdf.com
+  - DOMAIN-SUFFIX,asgardion.space
+  - DOMAIN-SUFFIX,hezuvip.com
+  - DOMAIN-SUFFIX,anytocopy.com
+  - DOMAIN-SUFFIX,openkylin.top
+  - DOMAIN-SUFFIX,wildfirechat.net
+  - DOMAIN-SUFFIX,xgzb.top
+  - DOMAIN-SUFFIX,daocloud.vip
+  - DOMAIN-SUFFIX,soulteary.com
+  - DOMAIN-SUFFIX,jzagile.com
+  - DOMAIN-SUFFIX,91shenfan.com
+  - DOMAIN-SUFFIX,gamepp.com
+  - DOMAIN-SUFFIX,bochaai.com
   - DOMAIN-SUFFIX,passnat.com
   - DOMAIN-SUFFIX,zmis.me
   - DOMAIN-SUFFIX,gpetrip.com
