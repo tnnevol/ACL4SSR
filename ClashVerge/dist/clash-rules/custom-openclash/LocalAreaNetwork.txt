@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
+  - DOMAIN,local.adguard.org
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
@@ -103,6 +104,7 @@ payload:
   - DOMAIN-SUFFIX,d.f.ip6.arpa
   - DOMAIN-SUFFIX,hiwifi.com
   - DOMAIN-SUFFIX,home.arpa
+  - DOMAIN-SUFFIX,kis.v2.scr.kaspersky-labs.com
   - DOMAIN-SUFFIX,leike.cc
   - DOMAIN-SUFFIX,localhost.ptlogin2.qq.com
   - DOMAIN-SUFFIX,localhost.sec.qq.com
@@ -287,9 +289,20 @@ payload:
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
+  - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,guangyapan.com
+  - DOMAIN-SUFFIX,acepanel.net
+  - DOMAIN-SUFFIX,miraiemby.com
+  - DOMAIN-SUFFIX,zhiexa.com
+  - DOMAIN-SUFFIX,alonginwind.top
+  - DOMAIN-SUFFIX,exiliumgf.com
+  - DOMAIN-SUFFIX,lightmake.site
+  - DOMAIN-SUFFIX,cone-x.com
+  - DOMAIN-SUFFIX,jiangningwater.com
+  - DOMAIN-SUFFIX,tongkask.com
+  - DOMAIN-SUFFIX,rxcrs.com
   - DOMAIN-SUFFIX,shanghongbei.com
   - DOMAIN-SUFFIX,divoiotcloud.com
-  - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,meloong.com
   - DOMAIN-SUFFIX,xn--mmz.cc
   - DOMAIN-SUFFIX,bjssjsyy.com
