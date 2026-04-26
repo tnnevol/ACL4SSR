@@ -290,6 +290,11 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,onetoken.sh
+  - DOMAIN-SUFFIX,ccw.site
+  - DOMAIN-SUFFIX,sy1.top
+  - DOMAIN-SUFFIX,4kgj.com
+  - DOMAIN-SUFFIX,tajiduo.com
   - DOMAIN-SUFFIX,guangyapan.com
   - DOMAIN-SUFFIX,acepanel.net
   - DOMAIN-SUFFIX,miraiemby.com
