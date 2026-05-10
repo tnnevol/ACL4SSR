@@ -290,6 +290,21 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,linka2a.net
+  - DOMAIN-SUFFIX,infini-fantasy.com
+  - DOMAIN-SUFFIX,constasj.me
+  - DOMAIN-SUFFIX,openappfilter.com
+  - DOMAIN-SUFFIX,ap-leasing.com
+  - DOMAIN-SUFFIX,suu-fun.com
+  - DOMAIN-SUFFIX,myrny.xin
+  - DOMAIN-SUFFIX,xyys.com
+  - DOMAIN-SUFFIX,hwwlyz.com
+  - DOMAIN-SUFFIX,miaotixing.com
+  - DOMAIN-SUFFIX,ttshitu.com
+  - DOMAIN-SUFFIX,goofish.pro
+  - DOMAIN-SUFFIX,zjshulong.com
+  - DOMAIN-SUFFIX,88996api.cloud
+  - DOMAIN-SUFFIX,yayi360.com
   - DOMAIN-SUFFIX,fussengroup.com
   - DOMAIN-SUFFIX,qweapi.com
   - DOMAIN-SUFFIX,gongxiangjizhang.com
