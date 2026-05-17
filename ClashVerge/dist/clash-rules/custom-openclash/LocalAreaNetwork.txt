@@ -274,7 +274,6 @@ payload:
   - DOMAIN-SUFFIX,meiyitou.top
   - DOMAIN-SUFFIX,rayws.top
   - DOMAIN-SUFFIX,a0d.top
-  - DOMAIN-SUFFIX,anyrouter.top
   - DOMAIN-SUFFIX,cmbc.run
   - DOMAIN-SUFFIX,kcbd.top
   - DOMAIN-SUFFIX,bunny.net
@@ -290,6 +289,9 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,tggfl.com
+  - DOMAIN-SUFFIX,code-relay.com
+  - DOMAIN-SUFFIX,gifpay.com
   - DOMAIN-SUFFIX,linka2a.net
   - DOMAIN-SUFFIX,infini-fantasy.com
   - DOMAIN-SUFFIX,constasj.me
