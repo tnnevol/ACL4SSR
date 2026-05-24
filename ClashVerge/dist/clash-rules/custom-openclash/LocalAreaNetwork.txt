@@ -289,6 +289,10 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,indeedpower.com
+  - DOMAIN-SUFFIX,micun.com
+  - DOMAIN-SUFFIX,share123.top
+  - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,tggfl.com
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,gifpay.com
