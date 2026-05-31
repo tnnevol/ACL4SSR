@@ -289,6 +289,9 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,haofanhuoban.com
+  - DOMAIN-SUFFIX,tmwanba.com
+  - DOMAIN-SUFFIX,terrabbs.ink
   - DOMAIN-SUFFIX,indeedpower.com
   - DOMAIN-SUFFIX,micun.com
   - DOMAIN-SUFFIX,share123.top
