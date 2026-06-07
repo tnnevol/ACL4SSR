@@ -289,6 +289,9 @@ payload:
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
   - DOMAIN-SUFFIX,jsj.top
+  - DOMAIN-SUFFIX,xiuxitong.com
+  - DOMAIN-SUFFIX,iposl.com
+  - DOMAIN-SUFFIX,ugnas.cloud
   - DOMAIN-SUFFIX,haofanhuoban.com
   - DOMAIN-SUFFIX,tmwanba.com
   - DOMAIN-SUFFIX,terrabbs.ink
@@ -444,7 +447,6 @@ payload:
   - DOMAIN-SUFFIX,functorz.com
   - DOMAIN-SUFFIX,banban.work
   - DOMAIN-SUFFIX,us.ci
-  - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,meoof-pet.com
   - DOMAIN-SUFFIX,cyouzai.com
   - DOMAIN-SUFFIX,xingyaozhilian.com
