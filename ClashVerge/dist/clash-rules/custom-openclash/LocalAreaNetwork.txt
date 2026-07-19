@@ -299,6 +299,17 @@ payload:
   - DOMAIN-SUFFIX,terrabbs.ink
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
+  - DOMAIN-SUFFIX,oai.sb
+  - DOMAIN-SUFFIX,x-gpu.com
+  - DOMAIN-SUFFIX,scyol.com
+  - DOMAIN-SUFFIX,sisiim.com
+  - DOMAIN-SUFFIX,wetolink.com
+  - DOMAIN-SUFFIX,trjho.com
+  - DOMAIN-SUFFIX,51kandianshi.com
+  - DOMAIN-SUFFIX,wlups.com
+  - DOMAIN-SUFFIX,anythinktech.com
+  - DOMAIN-SUFFIX,ymzec.com
+  - DOMAIN-SUFFIX,hfhs8x.info
   - DOMAIN-SUFFIX,noyer.eu.org
   - DOMAIN-SUFFIX,wera.eu.org
   - DOMAIN-SUFFIX,ibnjl.shop
