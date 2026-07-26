@@ -299,6 +299,14 @@ payload:
   - DOMAIN-SUFFIX,terrabbs.ink
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
+  - DOMAIN-SUFFIX,erocraft.com
+  - DOMAIN-SUFFIX,ca-sinfusi.com
+  - DOMAIN-SUFFIX,susudesu.com
+  - DOMAIN-SUFFIX,zzr.cc
+  - DOMAIN-SUFFIX,hbymfswz.com
+  - DOMAIN-SUFFIX,crrcgo.cc
+  - DOMAIN-SUFFIX,ugediao.com
+  - DOMAIN-SUFFIX,fb71ef91e1014.beer
   - DOMAIN-SUFFIX,oai.sb
   - DOMAIN-SUFFIX,x-gpu.com
   - DOMAIN-SUFFIX,scyol.com
@@ -1583,6 +1591,32 @@ payload:
   - DOMAIN,steam.ru.qtlglb.com
   - DOMAIN,edge.steam-dns.top.comcast.net
   - DOMAIN-SUFFIX,dl.playstation.net
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - IP-CIDR,45.121.184.0/24,no-resolve
+  - IP-CIDR,103.10.124.0/23,no-resolve
+  - IP-CIDR,103.28.54.0/24,no-resolve
+  - IP-CIDR,146.66.152.0/24,no-resolve
+  - IP-CIDR,146.66.155.0/24,no-resolve
+  - IP-CIDR,153.254.86.0/24,no-resolve
+  - IP-CIDR,155.133.224.0/22,no-resolve
+  - IP-CIDR,155.133.230.0/24,no-resolve
+  - IP-CIDR,155.133.232.0/23,no-resolve
+  - IP-CIDR,155.133.234.0/24,no-resolve
+  - IP-CIDR,155.133.236.0/22,no-resolve
+  - IP-CIDR,155.133.240.0/23,no-resolve
+  - IP-CIDR,155.133.244.0/23,no-resolve
+  - IP-CIDR,155.133.246.0/24,no-resolve
+  - IP-CIDR,155.133.248.0/21,no-resolve
+  - IP-CIDR,162.254.192.0/21,no-resolve
+  - IP-CIDR,185.25.182.0/23,no-resolve
+  - IP-CIDR,190.217.32.0/22,no-resolve
+  - IP-CIDR,192.69.96.0/22,no-resolve
+  - IP-CIDR,205.196.6.0/24,no-resolve
+  - IP-CIDR,208.64.200.0/22,no-resolve
+  - IP-CIDR,208.78.164.0/22,no-resolve
+  - IP-CIDR,205.185.194.0/24,no-resolve
   - DOMAIN-SUFFIX,408399.com
   - DOMAIN-SUFFIX,408399.net
   - DOMAIN-SUFFIX,816798.net
