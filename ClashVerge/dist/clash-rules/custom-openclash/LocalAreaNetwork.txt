@@ -299,6 +299,18 @@ payload:
   - DOMAIN-SUFFIX,terrabbs.ink
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
+  - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,qingjiansoft.com
+  - DOMAIN-SUFFIX,ba-hospital.com
+  - DOMAIN-SUFFIX,xiaomaicn.com
+  - DOMAIN-SUFFIX,eceshi.com
+  - DOMAIN-SUFFIX,hnchasing.com
+  - DOMAIN-SUFFIX,ftqq.com
+  - DOMAIN-SUFFIX,jinzanzan.com
+  - DOMAIN-SUFFIX,haojieyun.com
+  - DOMAIN-SUFFIX,cym520.top
+  - DOMAIN-SUFFIX,zzclass.com
+  - DOMAIN-SUFFIX,nlyd.club
   - DOMAIN-SUFFIX,erocraft.com
   - DOMAIN-SUFFIX,ca-sinfusi.com
   - DOMAIN-SUFFIX,susudesu.com

@@ -6,6 +6,7 @@ payload:
   - DOMAIN-SUFFIX,googleapis.cn
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,platformio.org
   - DOMAIN-SUFFIX,arduino.cc
