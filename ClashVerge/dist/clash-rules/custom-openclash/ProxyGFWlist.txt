@@ -14,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,onedrive.live.com
+  - IP-CIDR,207.241.224.2/32,no-resolve
   - DOMAIN-SUFFIX,7pzzv.us
   - DOMAIN-SUFFIX,hoyoverse.com
   - DOMAIN-SUFFIX,mypikpak.com

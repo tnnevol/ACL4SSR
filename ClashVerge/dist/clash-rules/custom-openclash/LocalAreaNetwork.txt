@@ -300,6 +300,25 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,anvnjmc.com
+  - DOMAIN-SUFFIX,56tvc.com
+  - DOMAIN-SUFFIX,fenno.ai
+  - DOMAIN-SUFFIX,suntl.com
+  - DOMAIN-SUFFIX,senachina.com
+  - DOMAIN-SUFFIX,sufe.me
+  - DOMAIN-SUFFIX,zzqrgs3148.vip
+  - DOMAIN-SUFFIX,hoaihe.store
+  - DOMAIN-SUFFIX,acgdraw.com
+  - DOMAIN-SUFFIX,zhaiad.com
+  - DOMAIN-SUFFIX,975135.xyz
+  - DOMAIN-SUFFIX,0759mall.com
+  - DOMAIN-SUFFIX,8x14khzwmi.com
+  - DOMAIN-SUFFIX,fffff.games
+  - DOMAIN-SUFFIX,dircleaner.com
+  - DOMAIN-SUFFIX,chuguansmart.com
+  - DOMAIN-SUFFIX,ynsj001.com
+  - DOMAIN-SUFFIX,xn--zfru1ggxt.fun
+  - DOMAIN-SUFFIX,52youzai.com
   - DOMAIN-SUFFIX,qingjiansoft.com
   - DOMAIN-SUFFIX,ba-hospital.com
   - DOMAIN-SUFFIX,xiaomaicn.com
