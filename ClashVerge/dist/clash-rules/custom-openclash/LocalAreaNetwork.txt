@@ -300,6 +300,34 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,xianghuiin.com
+  - DOMAIN-SUFFIX,xiaoyuan888.com
+  - DOMAIN-SUFFIX,adhuanxiao.com
+  - DOMAIN-SUFFIX,123795.com
+  - DOMAIN-SUFFIX,zyyct.com
+  - DOMAIN-SUFFIX,zzzcaculator.top
+  - DOMAIN-SUFFIX,guang233.com
+  - DOMAIN-SUFFIX,cdut.top
+  - DOMAIN-SUFFIX,zzzmap.com
+  - DOMAIN-SUFFIX,ppt28.com
+  - DOMAIN-SUFFIX,haimaiedu.net
+  - DOMAIN-SUFFIX,appracle.com
+  - DOMAIN-SUFFIX,bajie.la
+  - DOMAIN-SUFFIX,zjjslawyer.com
+  - DOMAIN-SUFFIX,bowenkj.com
+  - DOMAIN-SUFFIX,qiuquan.org
+  - DOMAIN-SUFFIX,mcar.vip
+  - DOMAIN-SUFFIX,dytt8.com
+  - DOMAIN-SUFFIX,vpsjyz.com
+  - DOMAIN-SUFFIX,kasperskydaily.com
+  - DOMAIN-SUFFIX,agentscope.io
+  - DOMAIN-SUFFIX,linux.sb
+  - DOMAIN-SUFFIX,threep.top
+  - DOMAIN-SUFFIX,startssl.com
+  - DOMAIN-SUFFIX,monkeyray.net
+  - DOMAIN-SUFFIX,hanqiuming888.com
+  - DOMAIN-SUFFIX,yhxjkj.top
+  - DOMAIN-SUFFIX,openevai.com
   - DOMAIN-SUFFIX,anvnjmc.com
   - DOMAIN-SUFFIX,56tvc.com
   - DOMAIN-SUFFIX,fenno.ai
