@@ -300,6 +300,56 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,opera.com
+  - DOMAIN-SUFFIX,ankltoken.com
+  - DOMAIN-SUFFIX,hzyi.eu.org
+  - DOMAIN-SUFFIX,oath.com
+  - DOMAIN-SUFFIX,fnspeed.net
+  - DOMAIN-SUFFIX,91biu.work
+  - DOMAIN-SUFFIX,tualatin.club
+  - DOMAIN-SUFFIX,zhewx.com
+  - DOMAIN-SUFFIX,gxrke1715.com
+  - DOMAIN-SUFFIX,kanxiquan.com
+  - DOMAIN-SUFFIX,goodq.top
+  - DOMAIN-SUFFIX,ip.plus
+  - DOMAIN-SUFFIX,dropiy.com
+  - DOMAIN-SUFFIX,skxvc.com
+  - DOMAIN-SUFFIX,iquantumad.com
+  - DOMAIN-SUFFIX,eye4cloud.com
+  - DOMAIN-SUFFIX,xhey.top
+  - DOMAIN-SUFFIX,fzedu.pub
+  - DOMAIN-SUFFIX,diandaojia.net
+  - DOMAIN-SUFFIX,mifosy.com
+  - DOMAIN-SUFFIX,hongyanyanbaihuo.online
+  - DOMAIN-SUFFIX,nwiztech.com
+  - DOMAIN-SUFFIX,618208.xyz
+  - DOMAIN-SUFFIX,amap-cdn.com
+  - DOMAIN-SUFFIX,vlan5.com
+  - DOMAIN-SUFFIX,spisec.com
+  - DOMAIN-SUFFIX,xingmojs.com
+  - DOMAIN-SUFFIX,zuidazym3u8.com
+  - DOMAIN-SUFFIX,shuangxiumall.com
+  - DOMAIN-SUFFIX,gdpcdz.com
+  - DOMAIN-SUFFIX,xn--id-ov2cb7n32b01yl6auun2bpzk4p2dgip.com
+  - DOMAIN-SUFFIX,wlkac.com
+  - DOMAIN-SUFFIX,lty02.com
+  - DOMAIN-SUFFIX,hpr7e.top
+  - DOMAIN-SUFFIX,aocdisplays.com
+  - DOMAIN-SUFFIX,aoc.com
+  - DOMAIN-SUFFIX,bxlsj.com
+  - DOMAIN-SUFFIX,hdcm00.com
+  - DOMAIN-SUFFIX,qmpx.net
+  - DOMAIN-SUFFIX,boowayun.com
+  - DOMAIN-SUFFIX,faka163.com
+  - DOMAIN-SUFFIX,staticmeow.com
+  - DOMAIN-SUFFIX,ycyct.com
+  - DOMAIN-SUFFIX,mcrmb.com
+  - DOMAIN-SUFFIX,omq.cc
+  - DOMAIN-SUFFIX,midoci.top
+  - DOMAIN-SUFFIX,itui.cc
+  - DOMAIN-SUFFIX,h5bqb.top
+  - DOMAIN-SUFFIX,admobile.top
+  - DOMAIN-SUFFIX,3ced.top
   - DOMAIN-SUFFIX,inmobicdn.net
   - DOMAIN-SUFFIX,jkgeek.com
   - DOMAIN-SUFFIX,71.am
