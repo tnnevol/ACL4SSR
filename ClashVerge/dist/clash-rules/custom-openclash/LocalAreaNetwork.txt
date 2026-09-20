@@ -300,6 +300,24 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,9999jt.com
+  - DOMAIN-SUFFIX,fjdejing.com
+  - DOMAIN-SUFFIX,visionariopro.com
+  - DOMAIN-SUFFIX,meetkb.com
+  - DOMAIN-SUFFIX,shulex.com
+  - DOMAIN-SUFFIX,vtools.online
+  - DOMAIN-SUFFIX,code.fun
+  - DOMAIN-SUFFIX,adsmart.cc
+  - DOMAIN-SUFFIX,feiyujiaju.com
+  - DOMAIN-SUFFIX,boxkj.com
+  - DOMAIN-SUFFIX,sxstczx.com
+  - DOMAIN-SUFFIX,shsw.top
+  - DOMAIN-SUFFIX,kamhing.net
+  - DOMAIN-SUFFIX,028zk01.net
+  - DOMAIN-SUFFIX,taichuansmart.com
+  - DOMAIN-SUFFIX,jnsjz.com
+  - DOMAIN-SUFFIX,leadweigh.com
+  - DOMAIN-SUFFIX,ainfinit.com
   - DOMAIN-SUFFIX,opera.com
   - DOMAIN-SUFFIX,ankltoken.com
   - DOMAIN-SUFFIX,hzyi.eu.org
