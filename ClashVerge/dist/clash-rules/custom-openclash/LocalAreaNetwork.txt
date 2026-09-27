@@ -290,6 +290,7 @@ payload:
   - DOMAIN-SUFFIX,afuns.me
   - DOMAIN-SUFFIX,sanligu.top
   - DOMAIN-SUFFIX,vbkr.com
+  - DOMAIN-SUFFIX,cqjypg.com
   - DOMAIN-SUFFIX,jsj.top
   - DOMAIN-SUFFIX,yunqin.online
   - DOMAIN-SUFFIX,xiuxitong.com
@@ -300,6 +301,29 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,juantui.com
+  - DOMAIN-SUFFIX,tgpro.top
+  - DOMAIN-SUFFIX,tgpro.net
+  - DOMAIN-SUFFIX,lezuan6.com
+  - DOMAIN-SUFFIX,banxueketang.com
+  - DOMAIN-SUFFIX,allptt.com
+  - DOMAIN-SUFFIX,hnzjyw.com
+  - DOMAIN-SUFFIX,vipjiapu.com
+  - DOMAIN-SUFFIX,hzssjp.com
+  - DOMAIN-SUFFIX,theuwa.com
+  - DOMAIN-SUFFIX,type.fun
+  - DOMAIN-SUFFIX,pvz1.com
+  - DOMAIN-SUFFIX,jspvz.com
+  - DOMAIN-SUFFIX,xiaoai.live
+  - DOMAIN-SUFFIX,kuktxu.com
+  - DOMAIN-SUFFIX,weixinpcs.com
+  - DOMAIN-SUFFIX,cloudllll.com
+  - DOMAIN-SUFFIX,ppqrrs.com
+  - DOMAIN-SUFFIX,cdn362.cc
+  - DOMAIN-SUFFIX,sjchess.com
+  - DOMAIN-SUFFIX,hjgdrop.cc
+  - DOMAIN-SUFFIX,chocolateswap.com
+  - DOMAIN-SUFFIX,pdf001.com
   - DOMAIN-SUFFIX,9999jt.com
   - DOMAIN-SUFFIX,fjdejing.com
   - DOMAIN-SUFFIX,visionariopro.com
