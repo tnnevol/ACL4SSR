@@ -140,6 +140,7 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
   - DOMAIN-SUFFIX,immortalwrt.org
+  - DOMAIN-SUFFIX,r2s.site
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
   - DOMAIN-SUFFIX,argotunnel.com
@@ -301,6 +302,19 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,maxdo.tech
+  - DOMAIN-SUFFIX,dtinsure.com
+  - DOMAIN-SUFFIX,4942.cc
+  - DOMAIN-SUFFIX,gxcould.com
+  - DOMAIN-SUFFIX,hclassplatform.com
+  - DOMAIN-SUFFIX,e0x233.com
+  - DOMAIN-SUFFIX,grz-hx.com
+  - DOMAIN-SUFFIX,feiniugo.com
+  - DOMAIN-SUFFIX,inextos.com
+  - DOMAIN-SUFFIX,hzttwl.com
+  - DOMAIN-SUFFIX,aiyohoo.com
+  - DOMAIN-SUFFIX,hsdxdl.com
+  - DOMAIN-SUFFIX,ljj233.top
   - DOMAIN-SUFFIX,juantui.com
   - DOMAIN-SUFFIX,tgpro.top
   - DOMAIN-SUFFIX,tgpro.net
