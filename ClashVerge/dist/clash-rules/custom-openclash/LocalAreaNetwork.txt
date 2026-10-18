@@ -140,7 +140,6 @@ payload:
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
   - DOMAIN-SUFFIX,immortalwrt.org
-  - DOMAIN-SUFFIX,r2s.site
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
   - DOMAIN-SUFFIX,argotunnel.com
@@ -302,6 +301,27 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,iq.com
+  - DOMAIN-SUFFIX,ectaiping.com
+  - DOMAIN-SUFFIX,twtapp.com
+  - DOMAIN-SUFFIX,changjirb.com
+  - DOMAIN-SUFFIX,pthqzpc100.com
+  - DOMAIN-SUFFIX,heysida.com
+  - DOMAIN-SUFFIX,wawo.cc
+  - DOMAIN-SUFFIX,lzgame.top
+  - DOMAIN-SUFFIX,xn--estr6ge7tok1a.com
+  - DOMAIN-SUFFIX,bambulab.com
+  - DOMAIN-SUFFIX,astrobox.online
+  - DOMAIN-SUFFIX,onesetapp.com
+  - DOMAIN-SUFFIX,handfree.work
+  - DOMAIN-SUFFIX,ptxzn.com
+  - DOMAIN-SUFFIX,yldw.net
+  - DOMAIN-SUFFIX,xiamp.net
+  - DOMAIN-SUFFIX,moctory.com
+  - DOMAIN-SUFFIX,ciyuancenter.cc
+  - DOMAIN-SUFFIX,minekuai.com
+  - DOMAIN-SUFFIX,ymwfy.com
+  - DOMAIN-SUFFIX,gta6keji.com
   - DOMAIN-SUFFIX,rsmods.me
   - DOMAIN-SUFFIX,rsmods.net
   - DOMAIN-SUFFIX,rsmods.cc
