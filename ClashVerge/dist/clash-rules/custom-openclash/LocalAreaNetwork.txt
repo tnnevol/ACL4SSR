@@ -2,6 +2,8 @@ payload:
   - DOMAIN,asusrouter.com
   - DOMAIN,instant.arubanetworks.com
   - DOMAIN,local.adguard.org
+  - DOMAIN,localhost.weixin.qq.com
+  - DOMAIN,localhost.work.weixin.qq.com
   - DOMAIN,oasisauth.h3c.com
   - DOMAIN,router.asus.com
   - DOMAIN,setmeup.arubanetworks.com
@@ -139,7 +141,6 @@ payload:
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
   - IP-CIDR6,ff00::/8,no-resolve
-  - DOMAIN-SUFFIX,immortalwrt.org
   - DOMAIN-SUFFIX,tailscale.com
   - SRC-PORT,41641
   - DOMAIN-SUFFIX,argotunnel.com
@@ -301,6 +302,23 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,wanzd.com
+  - DOMAIN-SUFFIX,77shuku.info
+  - DOMAIN-SUFFIX,xingpaste.com
+  - DOMAIN-SUFFIX,szmtzd.com
+  - DOMAIN-SUFFIX,constantinefun.com
+  - DOMAIN-SUFFIX,infistar.cc
+  - DOMAIN-SUFFIX,hanzhe.site
+  - DOMAIN-SUFFIX,taotoken.net
+  - DOMAIN-SUFFIX,baoku.one
+  - DOMAIN-SUFFIX,browserscan.net
+  - DOMAIN-SUFFIX,wallecube.com
+  - DOMAIN-SUFFIX,laupqc.com
+  - DOMAIN-SUFFIX,cc44dd.com
+  - DOMAIN-SUFFIX,vvhan.com
+  - DOMAIN-SUFFIX,cbn.id
+  - DOMAIN-SUFFIX,sollin.top
+  - DOMAIN-SUFFIX,12zayb.com
   - DOMAIN-SUFFIX,iq.com
   - DOMAIN-SUFFIX,ectaiping.com
   - DOMAIN-SUFFIX,twtapp.com
