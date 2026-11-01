@@ -164,8 +164,6 @@ payload:
   - DOMAIN-SUFFIX,github.site
   - DOMAIN-SUFFIX,github.store
   - DOMAIN-SUFFIX,hub.gitmirror.com
-  - DOMAIN-SUFFIX,jsdelivr.com
-  - DOMAIN-SUFFIX,jsdelivr.net
   - DOMAIN-SUFFIX,kgithub.com
   - DOMAIN-SUFFIX,docker.1panel.live
   - DOMAIN-SUFFIX,docker.kejilion.pro
@@ -302,6 +300,64 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,luxiangwu.com
+  - DOMAIN-SUFFIX,hndk1.com
+  - DOMAIN-SUFFIX,qpe27.top
+  - DOMAIN-SUFFIX,allsaints.top
+  - DOMAIN-SUFFIX,fgaiservice.com
+  - DOMAIN-SUFFIX,yeguodj.com
+  - DOMAIN-SUFFIX,fileh.xyz
+  - DOMAIN-SUFFIX,filej.xyz
+  - DOMAIN-SUFFIX,sxjiabeide.com
+  - DOMAIN-SUFFIX,847ds.com
+  - DOMAIN-SUFFIX,yixlab.com
+  - DOMAIN-SUFFIX,paojiaoyun.com
+  - DOMAIN-SUFFIX,topkee.com
+  - DOMAIN-SUFFIX,topkee.top
+  - DOMAIN-SUFFIX,kke.com.hk
+  - DOMAIN-SUFFIX,dg3yy.com
+  - DOMAIN-SUFFIX,vip666ai.com
+  - DOMAIN-SUFFIX,njlisi.top
+  - DOMAIN-SUFFIX,3688baihuo.com
+  - DOMAIN-SUFFIX,gxnnxsqy.top
+  - DOMAIN-SUFFIX,paijitang.com
+  - DOMAIN-SUFFIX,u5nm5uvh1w.com
+  - DOMAIN-SUFFIX,8z8dlsjkn2.com
+  - DOMAIN-SUFFIX,shccywlkj.xyz
+  - DOMAIN-SUFFIX,btsel5g.cc
+  - DOMAIN-SUFFIX,yrqvlchq5.com
+  - DOMAIN-SUFFIX,i955jr0pk.com
+  - DOMAIN-SUFFIX,ec766.com
+  - DOMAIN-SUFFIX,xzjykj.com
+  - DOMAIN-SUFFIX,sduc.cloud
+  - DOMAIN-SUFFIX,weiguangshanyao.com
+  - DOMAIN-SUFFIX,4kzn.cc
+  - DOMAIN-SUFFIX,shrxnet.com
+  - DOMAIN-SUFFIX,shandian.blog
+  - DOMAIN-SUFFIX,yyxdmn.com
+  - DOMAIN-SUFFIX,shytkjgs.com
+  - DOMAIN-SUFFIX,myviewcloud.com
+  - DOMAIN-SUFFIX,nuanxinhm.com
+  - DOMAIN-SUFFIX,tlkg.com
+  - DOMAIN-SUFFIX,gacicv.com
+  - DOMAIN-SUFFIX,hanoking.com
+  - DOMAIN-SUFFIX,153532.com
+  - DOMAIN-SUFFIX,eyosc.com
+  - DOMAIN-SUFFIX,lodop.net
+  - DOMAIN-SUFFIX,kbser.com
+  - DOMAIN-SUFFIX,757abc.com
+  - DOMAIN-SUFFIX,sun-panel.top
+  - DOMAIN-SUFFIX,human-horizons.com
+  - DOMAIN-SUFFIX,changzhi.top
+  - DOMAIN-SUFFIX,xiaoyao.co
+  - DOMAIN-SUFFIX,ldboost.com
+  - DOMAIN-SUFFIX,qzy.xyz
+  - DOMAIN-SUFFIX,liyunol.com
+  - DOMAIN-SUFFIX,cindy.app
+  - DOMAIN-SUFFIX,wuhanjijin.com
+  - DOMAIN-SUFFIX,xaippc.com
+  - DOMAIN-SUFFIX,v-koolsh.com
+  - DOMAIN-SUFFIX,aitongqian.com
   - DOMAIN-SUFFIX,wanzd.com
   - DOMAIN-SUFFIX,77shuku.info
   - DOMAIN-SUFFIX,xingpaste.com
