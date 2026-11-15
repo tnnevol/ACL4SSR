@@ -300,6 +300,61 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,idc.cash
+  - DOMAIN-SUFFIX,mytentv.com
+  - DOMAIN-SUFFIX,r11cc.com
+  - DOMAIN-SUFFIX,aroychmdcl.cc
+  - DOMAIN-SUFFIX,6apzfdx.com
+  - DOMAIN-SUFFIX,nht5dbh.cc
+  - DOMAIN-SUFFIX,guazi.fun
+  - DOMAIN-SUFFIX,yishares.com
+  - DOMAIN-SUFFIX,tjnhscgs.com
+  - DOMAIN-SUFFIX,betaints.com
+  - DOMAIN-SUFFIX,remo.video
+  - DOMAIN-SUFFIX,iflytck.com
+  - DOMAIN-SUFFIX,litemob.vip
+  - DOMAIN-SUFFIX,zyxwvutsrqpo.com
+  - DOMAIN-SUFFIX,zaohaowu.net
+  - DOMAIN-SUFFIX,hi3d.ai
+  - DOMAIN-SUFFIX,1panel.dev
+  - DOMAIN-SUFFIX,argslink.com
+  - DOMAIN-SUFFIX,suiwan.com
+  - DOMAIN-SUFFIX,anzz.site
+  - DOMAIN-SUFFIX,xmearth.online
+  - DOMAIN-SUFFIX,socbro.com
+  - DOMAIN-SUFFIX,jianzhixiaoke.net
+  - DOMAIN-SUFFIX,sh-playmax.com
+  - DOMAIN-SUFFIX,zendao8.top
+  - DOMAIN-SUFFIX,xiaokuai.com
+  - DOMAIN-SUFFIX,shirui3.com
+  - DOMAIN-SUFFIX,rockchips.net
+  - DOMAIN-SUFFIX,mayihttp.com
+  - DOMAIN-SUFFIX,smartryan.com
+  - DOMAIN-SUFFIX,u7ygkovbl.cc
+  - DOMAIN-SUFFIX,04805545.com
+  - DOMAIN-SUFFIX,verdigz.com
+  - DOMAIN-SUFFIX,liangyuji.com
+  - DOMAIN-SUFFIX,chyqaq.online
+  - DOMAIN-SUFFIX,chaoway.net
+  - DOMAIN-SUFFIX,szyrtech.com
+  - DOMAIN-SUFFIX,chixiatech.com
+  - DOMAIN-SUFFIX,wlygrowth.com
+  - DOMAIN-SUFFIX,btgpy.com
+  - DOMAIN-SUFFIX,ichongjiayuan.com
+  - DOMAIN-SUFFIX,nanjyiyun.com
+  - DOMAIN-SUFFIX,yikeapi.com
+  - DOMAIN-SUFFIX,qswpt.com
+  - DOMAIN-SUFFIX,jingxi-wl.com
+  - DOMAIN-SUFFIX,uploadlog.com
+  - DOMAIN-SUFFIX,huangyusz.space
+  - DOMAIN-SUFFIX,superpande.com
+  - DOMAIN-SUFFIX,libtv.com
+  - DOMAIN-SUFFIX,dldcsj.com
+  - DOMAIN-SUFFIX,373979.cc
+  - DOMAIN-SUFFIX,mssdag.com
+  - DOMAIN-SUFFIX,jztysg.com
+  - DOMAIN-SUFFIX,ifawj9hvvl.com
+  - DOMAIN-SUFFIX,edyr2ip7zg.com
   - DOMAIN-SUFFIX,37rk0rihje.com
   - DOMAIN-SUFFIX,1o057bolbb.com
   - DOMAIN-SUFFIX,f691ax6.cc
