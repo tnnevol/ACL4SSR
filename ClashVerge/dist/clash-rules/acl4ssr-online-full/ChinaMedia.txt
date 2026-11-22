@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,bilibili.tv
   - DOMAIN-SUFFIX,biligame.com
   - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,biliimg.com
   - DOMAIN-SUFFIX,bilivideo.cn
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,hdslb.com

@@ -178,14 +178,6 @@ payload:
   - DOMAIN-SUFFIX,hf-mirror.com
   - DOMAIN-KEYWORD,synology
   - DOMAIN-KEYWORD,quickconnect
-  - DOMAIN-SUFFIX,checkip.dyndns.org
-  - DOMAIN-SUFFIX,checkipv6.dyndns.org
-  - DOMAIN-SUFFIX,ifconfig.co
-  - DOMAIN-SUFFIX,api.myip.com
-  - DOMAIN-SUFFIX,giveup.top
-  - DOMAIN-SUFFIX,ipapi.co
-  - DOMAIN-SUFFIX,ip6.seeip.org
-  - DOMAIN-SUFFIX,kit327.com
   - DOMAIN-SUFFIX,members.3322.org
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,msftncsi.com
@@ -300,6 +292,82 @@ payload:
   - DOMAIN-SUFFIX,yingshi.dog
   - DOMAIN-SUFFIX,code-relay.com
   - DOMAIN-SUFFIX,ahlt10010.com
+  - DOMAIN-SUFFIX,gslock.com
+  - DOMAIN-SUFFIX,jiangyuxj.com
+  - DOMAIN-SUFFIX,lujiangct.top
+  - DOMAIN-SUFFIX,6z2h1lycfw.cc
+  - DOMAIN-SUFFIX,panso.vip
+  - DOMAIN-SUFFIX,misoso.cc
+  - DOMAIN-SUFFIX,wpys.cc
+  - DOMAIN-SUFFIX,7189099.com
+  - DOMAIN-SUFFIX,cc-gateway.com
+  - DOMAIN-SUFFIX,4xvr.net
+  - DOMAIN-SUFFIX,ydxian.xyz
+  - DOMAIN-SUFFIX,smartbed.ink
+  - DOMAIN-SUFFIX,czssdgz.com
+  - DOMAIN-SUFFIX,sofan.in
+  - DOMAIN-SUFFIX,azpromotion.com
+  - DOMAIN-SUFFIX,arctime.pro
+  - DOMAIN-SUFFIX,ho9.cc
+  - DOMAIN-SUFFIX,cfysoft.cc
+  - DOMAIN-SUFFIX,36dm.club
+  - DOMAIN-SUFFIX,ruan789.com
+  - DOMAIN-SUFFIX,heifeichixu.com
+  - DOMAIN-SUFFIX,xmsnh.com
+  - DOMAIN-SUFFIX,cdqyjh.top
+  - DOMAIN-SUFFIX,34619481.com
+  - DOMAIN-SUFFIX,1254225.com
+  - DOMAIN-SUFFIX,1335273.com
+  - DOMAIN-SUFFIX,xinyonghome.com
+  - DOMAIN-SUFFIX,tvustream.com
+  - DOMAIN-SUFFIX,ioapk.com
+  - DOMAIN-SUFFIX,jzywy.com
+  - DOMAIN-SUFFIX,yuanqidesk3.com
+  - DOMAIN-SUFFIX,icitycdn.com
+  - DOMAIN-SUFFIX,webportal.top
+  - DOMAIN-SUFFIX,yueyouqu.com
+  - DOMAIN-SUFFIX,znigddzwz.cc
+  - DOMAIN-SUFFIX,kanv7k.live
+  - DOMAIN-SUFFIX,visaselectrewardhk.com
+  - DOMAIN-SUFFIX,wirefee.site
+  - DOMAIN-SUFFIX,wget.la
+  - DOMAIN-SUFFIX,zsdc.eu.org
+  - DOMAIN-SUFFIX,ygdj17.com
+  - DOMAIN-SUFFIX,claisly.com
+  - DOMAIN-SUFFIX,wyswgb.com
+  - DOMAIN-SUFFIX,ymm56-cdn.com
+  - DOMAIN-SUFFIX,mikus.ink
+  - DOMAIN-SUFFIX,isbestgame.com
+  - DOMAIN-SUFFIX,mfpt8g.com
+  - DOMAIN-SUFFIX,gxqmeiwujun.com
+  - DOMAIN-SUFFIX,sxjd.ink
+  - DOMAIN-SUFFIX,mobbananagame.com
+  - DOMAIN-SUFFIX,woca.fun
+  - DOMAIN-SUFFIX,ataw.top
+  - DOMAIN-SUFFIX,bfr2.top
+  - DOMAIN-SUFFIX,oemdss.com
+  - DOMAIN-SUFFIX,360luxiang.com
+  - DOMAIN-SUFFIX,dingdongbao.com
+  - DOMAIN-SUFFIX,pheicloud.com
+  - DOMAIN-SUFFIX,88923531.com
+  - DOMAIN-SUFFIX,77505113.com
+  - DOMAIN-SUFFIX,33442805.com
+  - DOMAIN-SUFFIX,66298845.com
+  - DOMAIN-SUFFIX,yojoy.mobi
+  - DOMAIN-SUFFIX,yojoy.vip
+  - DOMAIN-SUFFIX,theyojoy.com
+  - DOMAIN-SUFFIX,mfosunhani.com
+  - DOMAIN-SUFFIX,u77.games
+  - DOMAIN-SUFFIX,litepan.top
+  - DOMAIN-SUFFIX,jtti.cc
+  - DOMAIN-SUFFIX,jjwer.com
+  - DOMAIN-SUFFIX,shemen365.com
+  - DOMAIN-SUFFIX,manbangcredit.com
+  - DOMAIN-SUFFIX,kelexuexi.com
+  - DOMAIN-SUFFIX,lx51ib3szv.cc
+  - DOMAIN-SUFFIX,metrix.bar
+  - DOMAIN-SUFFIX,sxjkj22.top
+  - DOMAIN-SUFFIX,adgo.top
   - DOMAIN-SUFFIX,idc.cash
   - DOMAIN-SUFFIX,mytentv.com
   - DOMAIN-SUFFIX,r11cc.com
